@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['membroinem_0',['membroinem',['../class_dados_1_1_membro_i_n_e_m.html#a3b503437f29b1ff895123cce0a70b179',1,'Dados.MembroINEM.MembroINEM()'],['../class_dados_1_1_membro_i_n_e_m.html#a6455c03d7e097ff783a223e934c2d28f',1,'Dados.MembroINEM.MembroINEM(EspecialidadeINEM especialidade)'],['../class_dados_1_1_membro_i_n_e_m.html#ae8d68352567c4d01c933d2a31966775a',1,'Dados.MembroINEM.MembroINEM(string nome, string contacto, string email, EspecialidadeINEM especialidade)'],['../class_dados_1_1_membro_i_n_e_m.html#a0f39c986893eb02a9df4897e2f069e78',1,'Dados.MembroINEM.MembroINEM(string nome, EspecialidadeINEM especialidade)']]],
+  ['membroinembo_1',['membroinembo',['../class_business_objects_1_1_membro_i_n_e_m_b_o.html#aab44f0fe9eed75c19d7727b2cfbfdc45',1,'BusinessObjects.MembroINEMBO.MembroINEMBO()'],['../class_business_objects_1_1_membro_i_n_e_m_b_o.html#adc50f28aeb97dd683b3487a5de88694e',1,'BusinessObjects.MembroINEMBO.MembroINEMBO(int id, string nome, EspecialidadeINEM especialidade)']]]
+];

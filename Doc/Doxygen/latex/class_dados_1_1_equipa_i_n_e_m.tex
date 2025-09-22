@@ -1,0 +1,227 @@
+\doxysection{Dados.\+Equipa\+INEM Class Reference}
+\hypertarget{class_dados_1_1_equipa_i_n_e_m}{}\label{class_dados_1_1_equipa_i_n_e_m}\index{Dados.EquipaINEM@{Dados.EquipaINEM}}
+
+
+Purpose\+: Class Equipa\+INEM que contem um Dicionario de membros do INEM e o nome da equipa Created by\+: diogo Created on\+: 11/13/2024 7\+:42\+:47 PM.  
+
+
+
+
+Inheritance diagram for Dados.\+Equipa\+INEM\+:
+% FIG 0
+
+
+Collaboration diagram for Dados.\+Equipa\+INEM\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_a89771673e703f3286d484b6c0f8d9c66}{Equipa\+INEM}} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_a2a8caf35eec6044264900daa0fa68fc5}{Equipa\+INEM}} (string \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_af978eab051bbf1e25ec1abe5bd5f669b}{nome}})
+\begin{DoxyCompactList}\small\item\em Contrutor da class Equipa\+INEM com a indicacao do nome da equipa. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_a019511037b468bd7ca488413b9a40cee}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Funcao que transforma a equipa de INEM em texto. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_a2a23fde47d0addf3d4044bd03474c22a}{Adiciona}} (\mbox{\hyperlink{class_dados_1_1_membro_i_n_e_m}{Membro\+INEM}} membro)
+\begin{DoxyCompactList}\small\item\em Funcao que adiciona um determinado membro no dicionario da equipa de membros do INEM. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_a92f6ef6102af6995445c400631fe1ae6}{Existe}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se existe um determinado membro na equipa de membros do INEM. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_a3f4ca2b37396fd88baa4369a5de7a727}{Remove}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que remove um determinado membro da equipa de membros do INEM. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_business_objects_1_1_membro_i_n_e_m_b_o}{Membro\+INEMBO}} \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_afad9b704cb3bed06515eabc0df8c36d5}{Get\+Membro}} (int id\+Membro)
+\begin{DoxyCompactList}\small\item\em Funcao que devolve as informacoes de um membro do INEM. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_afca140675c0a6a554308a0824ee8919f}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Get ou set do nome da equipa de INEM. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_a525d061f4162246e18306e288cd8155a}{\texorpdfstring{$\sim$}{\string~}\+Equipa\+INEM}} ()
+\begin{DoxyCompactList}\small\item\em The destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_af978eab051bbf1e25ec1abe5bd5f669b}{nome}}
+\item 
+Dictionary$<$ int, \mbox{\hyperlink{class_dados_1_1_membro_i_n_e_m}{Membro\+INEM}} $>$ \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m_a789fefb5dab77dee15cf883c82bf43cc}{equipa}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Class Equipa\+INEM que contem um Dicionario de membros do INEM e o nome da equipa Created by\+: diogo Created on\+: 11/13/2024 7\+:42\+:47 PM. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_a89771673e703f3286d484b6c0f8d9c66}\label{class_dados_1_1_equipa_i_n_e_m_a89771673e703f3286d484b6c0f8d9c66} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!EquipaINEM@{EquipaINEM}}
+\index{EquipaINEM@{EquipaINEM}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{EquipaINEM()}{EquipaINEM()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Dados.\+Equipa\+INEM.\+Equipa\+INEM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The default Constructor. 
+
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_a2a8caf35eec6044264900daa0fa68fc5}\label{class_dados_1_1_equipa_i_n_e_m_a2a8caf35eec6044264900daa0fa68fc5} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!EquipaINEM@{EquipaINEM}}
+\index{EquipaINEM@{EquipaINEM}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{EquipaINEM()}{EquipaINEM()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Dados.\+Equipa\+INEM.\+Equipa\+INEM (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Contrutor da class Equipa\+INEM com a indicacao do nome da equipa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Nome da equipa de INEM\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_a525d061f4162246e18306e288cd8155a}\label{class_dados_1_1_equipa_i_n_e_m_a525d061f4162246e18306e288cd8155a} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!````~EquipaINEM@{\texorpdfstring{$\sim$}{\string~}EquipaINEM}}
+\index{````~EquipaINEM@{\texorpdfstring{$\sim$}{\string~}EquipaINEM}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}EquipaINEM()}{\string~EquipaINEM()}}
+{\footnotesize\ttfamily Dados.\+Equipa\+INEM.\texorpdfstring{$\sim$}{\string~}\+Equipa\+INEM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+The destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_a2a23fde47d0addf3d4044bd03474c22a}\label{class_dados_1_1_equipa_i_n_e_m_a2a23fde47d0addf3d4044bd03474c22a} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!Adiciona@{Adiciona}}
+\index{Adiciona@{Adiciona}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{Adiciona()}{Adiciona()}}
+{\footnotesize\ttfamily bool Dados.\+Equipa\+INEM.\+Adiciona (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_dados_1_1_membro_i_n_e_m}{Membro\+INEM}}}]{membro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que adiciona um determinado membro no dicionario da equipa de membros do INEM. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em membro} & Membro do INEM que se pretende adicionar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se adicionou com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 2
+Here is the caller graph for this function\+:
+% FIG 3
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_a92f6ef6102af6995445c400631fe1ae6}\label{class_dados_1_1_equipa_i_n_e_m_a92f6ef6102af6995445c400631fe1ae6} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!Existe@{Existe}}
+\index{Existe@{Existe}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{Existe()}{Existe()}}
+{\footnotesize\ttfamily bool Dados.\+Equipa\+INEM.\+Existe (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que verifica se existe um determinado membro na equipa de membros do INEM. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do membro do INEM que se pretende verificar se existe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se existe na equipa ou nao
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 4
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_afad9b704cb3bed06515eabc0df8c36d5}\label{class_dados_1_1_equipa_i_n_e_m_afad9b704cb3bed06515eabc0df8c36d5} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!GetMembro@{GetMembro}}
+\index{GetMembro@{GetMembro}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{GetMembro()}{GetMembro()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_business_objects_1_1_membro_i_n_e_m_b_o}{Membro\+INEMBO}} Dados.\+Equipa\+INEM.\+Get\+Membro (\begin{DoxyParamCaption}\item[{int}]{id\+Membro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que devolve as informacoes de um membro do INEM. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Membro} & Id do membro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Informacoes do Membro\+INEM
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 5
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_a3f4ca2b37396fd88baa4369a5de7a727}\label{class_dados_1_1_equipa_i_n_e_m_a3f4ca2b37396fd88baa4369a5de7a727} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!Remove@{Remove}}
+\index{Remove@{Remove}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily bool Dados.\+Equipa\+INEM.\+Remove (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que remove um determinado membro da equipa de membros do INEM. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do membro do INEM que se pretende remover\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se removeu com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 6
+Here is the caller graph for this function\+:
+% FIG 7
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_a019511037b468bd7ca488413b9a40cee}\label{class_dados_1_1_equipa_i_n_e_m_a019511037b468bd7ca488413b9a40cee} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!ToString@{ToString}}
+\index{ToString@{ToString}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string Dados.\+Equipa\+INEM.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que transforma a equipa de INEM em texto. 
+
+\begin{DoxyReturn}{Returns}
+O texto que se pretende apresentar
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 8
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_a789fefb5dab77dee15cf883c82bf43cc}\label{class_dados_1_1_equipa_i_n_e_m_a789fefb5dab77dee15cf883c82bf43cc} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!equipa@{equipa}}
+\index{equipa@{equipa}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{equipa}{equipa}}
+{\footnotesize\ttfamily Dictionary$<$int, \mbox{\hyperlink{class_dados_1_1_membro_i_n_e_m}{Membro\+INEM}}$>$ Dados.\+Equipa\+INEM.\+equipa\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_af978eab051bbf1e25ec1abe5bd5f669b}\label{class_dados_1_1_equipa_i_n_e_m_af978eab051bbf1e25ec1abe5bd5f669b} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!nome@{nome}}
+\index{nome@{nome}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{nome}{nome}}
+{\footnotesize\ttfamily string Dados.\+Equipa\+INEM.\+nome\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_dados_1_1_equipa_i_n_e_m_afca140675c0a6a554308a0824ee8919f}\label{class_dados_1_1_equipa_i_n_e_m_afca140675c0a6a554308a0824ee8919f} 
+\index{Dados.EquipaINEM@{Dados.EquipaINEM}!Nome@{Nome}}
+\index{Nome@{Nome}!Dados.EquipaINEM@{Dados.EquipaINEM}}
+\doxysubsubsection{\texorpdfstring{Nome}{Nome}}
+{\footnotesize\ttfamily string Dados.\+Equipa\+INEM.\+Nome\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Get ou set do nome da equipa de INEM. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Dados/\mbox{\hyperlink{_equipa_i_n_e_m_8cs}{Equipa\+INEM.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,594 @@
+\begin{theindex}
+
+  \item {\texorpdfstring{$\sim$}{\string~}Bombeiro}
+    \subitem {Dados.Bombeiro}, \hyperpage{15}
+  \item {\texorpdfstring{$\sim$}{\string~}EquipaBombeiros}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{17}
+  \item {\texorpdfstring{$\sim$}{\string~}EquipaINEM}
+    \subitem {Dados.EquipaINEM}, \hyperpage{21}
+  \item {\texorpdfstring{$\sim$}{\string~}Equipamento}
+    \subitem {Dados.Equipamento}, \hyperpage{26}
+  \item {\texorpdfstring{$\sim$}{\string~}Equipamentos}
+    \subitem {Dados.Equipamentos}, \hyperpage{28}
+  \item {\texorpdfstring{$\sim$}{\string~}Instituicao}
+    \subitem {Dados.Instituicao}, \hyperpage{42}
+  \item {\texorpdfstring{$\sim$}{\string~}MembroINEM}
+    \subitem {Dados.MembroINEM}, \hyperpage{54}
+  \item {\texorpdfstring{$\sim$}{\string~}MembroINEMBO}
+    \subitem {BusinessObjects.MembroINEMBO}, \hyperpage{56}
+  \item {\texorpdfstring{$\sim$}{\string~}Ocorrencia}
+    \subitem {Dados.Ocorrencia}, \hyperpage{59}
+  \item {\texorpdfstring{$\sim$}{\string~}Ocorrencias}
+    \subitem {Dados.Ocorrencias}, \hyperpage{62}
+  \item {\texorpdfstring{$\sim$}{\string~}Pessoa}
+    \subitem {Dados.Pessoa}, \hyperpage{65}
+  \item {\texorpdfstring{$\sim$}{\string~}PessoaBO}
+    \subitem {BusinessObjects.PessoaBO}, \hyperpage{68}
+
+  \indexspace
+
+  \item {Adiciona}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{18}
+    \subitem {Dados.EquipaINEM}, \hyperpage{21}
+    \subitem {Dados.Equipamentos}, \hyperpage{29}
+    \subitem {Dados.Ocorrencias}, \hyperpage{62}
+
+  \indexspace
+
+  \item {BOMBEIRO}
+    \subitem {Enums}, \hyperpage{12}
+  \item {Bombeiro}
+    \subitem {Dados.Bombeiro}, \hyperpage{14, 15}
+  \item {BOMBEIROS}
+    \subitem {Enums}, \hyperpage{10}
+  \item {BusinessObjects}, \hyperpage{9}
+  \item {BusinessObjects.BombeiroBO}, \hyperpage{16}
+  \item {BusinessObjects.MembroINEMBO}, \hyperpage{55}
+    \subitem {\texorpdfstring{$\sim$}{\string~}MembroINEMBO}, 
+		\hyperpage{56}
+    \subitem {Especialidade}, \hyperpage{57}
+    \subitem {especialidade}, \hyperpage{56}
+    \subitem {MembroINEMBO}, \hyperpage{56}
+  \item {BusinessObjects.PessoaBO}, \hyperpage{67}
+    \subitem {\texorpdfstring{$\sim$}{\string~}PessoaBO}, 
+		\hyperpage{68}
+    \subitem {Id}, \hyperpage{68}
+    \subitem {id}, \hyperpage{68}
+    \subitem {Nome}, \hyperpage{68}
+    \subitem {nome}, \hyperpage{68}
+    \subitem {PessoaBO}, \hyperpage{67}
+  \item {BusinessObjects/BombeiroBO.cs}, \hyperpage{73}
+  \item {BusinessObjects/MembroINEMBO.cs}, \hyperpage{73}
+  \item {BusinessObjects/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{74}
+  \item {BusinessObjects/PessoaBO.cs}, \hyperpage{74}
+  \item {BusinessObjects/Properties/AssemblyInfo.cs}, \hyperpage{75}
+
+  \indexspace
+
+  \item {CONCLUIDA}
+    \subitem {Enums}, \hyperpage{11}
+  \item {Constructor\_ParametrosInvalidos\_EsperaExcecaoContactoInvalido}
+    \subitem {Testes.Testes}, \hyperpage{69}
+  \item {Constructor\_ParametrosValidos\_Bombeiro}
+    \subitem {Testes.Testes}, \hyperpage{69}
+  \item {Contacto}
+    \subitem {Dados.Pessoa}, \hyperpage{66}
+  \item {contacto}
+    \subitem {Dados.Pessoa}, \hyperpage{65}
+  \item {CONTACTO\_INVALIDO}
+    \subitem {Enums}, \hyperpage{11}
+  \item {CriaBombeiroCompleto}
+    \subitem {Regras.GereInstituicao}, \hyperpage{33}
+  \item {CriaBombeiroInstCompleto}
+    \subitem {Dados.Instituicao}, \hyperpage{42}
+  \item {CriaBombeiroInstSimples}
+    \subitem {Dados.Instituicao}, \hyperpage{42}
+  \item {CriaBombeiroSimples}
+    \subitem {Regras.GereInstituicao}, \hyperpage{33}
+  \item {CriaEquipamento}
+    \subitem {Regras.GereInstituicao}, \hyperpage{33}
+  \item {CriaEquipamentoInst}
+    \subitem {Dados.Instituicao}, \hyperpage{43}
+  \item {CriaMembroINEMCompleto}
+    \subitem {Regras.GereInstituicao}, \hyperpage{34}
+  \item {CriaMembroINEMInstCompleto}
+    \subitem {Dados.Instituicao}, \hyperpage{43}
+  \item {CriaMembroINEMInstSimples}
+    \subitem {Dados.Instituicao}, \hyperpage{43}
+  \item {CriaMembroINEMSimples}
+    \subitem {Regras.GereInstituicao}, \hyperpage{34}
+  \item {CriaOcorrenciaCompleta}
+    \subitem {Regras.GereInstituicao}, \hyperpage{35}
+  \item {CriaOcorrenciaInstCompleta}
+    \subitem {Dados.Instituicao}, \hyperpage{44}
+  \item {CriaOcorrenciaInstSimples}
+    \subitem {Dados.Instituicao}, \hyperpage{44}
+  \item {CriaOcorrenciaSimples}
+    \subitem {Regras.GereInstituicao}, \hyperpage{35}
+
+  \indexspace
+
+  \item {Dados}, \hyperpage{9}
+  \item {Dados.Bombeiro}, \hyperpage{13}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Bombeiro}, 
+		\hyperpage{15}
+    \subitem {Bombeiro}, \hyperpage{14, 15}
+    \subitem {Patente}, \hyperpage{16}
+    \subitem {patente}, \hyperpage{16}
+    \subitem {ToString}, \hyperpage{15}
+  \item {Dados.EquipaBombeiros}, \hyperpage{16}
+    \subitem {\texorpdfstring{$\sim$}{\string~}EquipaBombeiros}, 
+		\hyperpage{17}
+    \subitem {Adiciona}, \hyperpage{18}
+    \subitem {equipa}, \hyperpage{19}
+    \subitem {EquipaBombeiros}, \hyperpage{17}
+    \subitem {Existe}, \hyperpage{18}
+    \subitem {GetBombeiro}, \hyperpage{18}
+    \subitem {Nome}, \hyperpage{20}
+    \subitem {nome}, \hyperpage{19}
+    \subitem {Remove}, \hyperpage{19}
+    \subitem {ToString}, \hyperpage{19}
+  \item {Dados.EquipaINEM}, \hyperpage{20}
+    \subitem {\texorpdfstring{$\sim$}{\string~}EquipaINEM}, 
+		\hyperpage{21}
+    \subitem {Adiciona}, \hyperpage{21}
+    \subitem {equipa}, \hyperpage{24}
+    \subitem {EquipaINEM}, \hyperpage{21}
+    \subitem {Existe}, \hyperpage{22}
+    \subitem {GetMembro}, \hyperpage{22}
+    \subitem {Nome}, \hyperpage{24}
+    \subitem {nome}, \hyperpage{24}
+    \subitem {Remove}, \hyperpage{22}
+    \subitem {ToString}, \hyperpage{24}
+  \item {Dados.Equipamento}, \hyperpage{25}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Equipamento}, 
+		\hyperpage{26}
+    \subitem {Entidade}, \hyperpage{27}
+    \subitem {entidade}, \hyperpage{26}
+    \subitem {Equipamento}, \hyperpage{26}
+    \subitem {Estado}, \hyperpage{27}
+    \subitem {estado}, \hyperpage{26}
+    \subitem {Id}, \hyperpage{27}
+    \subitem {id}, \hyperpage{27}
+    \subitem {idCounter}, \hyperpage{27}
+    \subitem {Nome}, \hyperpage{27}
+    \subitem {nome}, \hyperpage{27}
+    \subitem {ToString}, \hyperpage{26}
+  \item {Dados.Equipamentos}, \hyperpage{28}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Equipamentos}, 
+		\hyperpage{28}
+    \subitem {Adiciona}, \hyperpage{29}
+    \subitem {Equipamentos}, \hyperpage{28}
+    \subitem {equipamentos}, \hyperpage{31}
+    \subitem {Existe}, \hyperpage{30}
+    \subitem {Remove}, \hyperpage{30}
+    \subitem {ToString}, \hyperpage{30}
+  \item {Dados.Instituicao}, \hyperpage{40}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Instituicao}, 
+		\hyperpage{42}
+    \subitem {CriaBombeiroInstCompleto}, \hyperpage{42}
+    \subitem {CriaBombeiroInstSimples}, \hyperpage{42}
+    \subitem {CriaEquipamentoInst}, \hyperpage{43}
+    \subitem {CriaMembroINEMInstCompleto}, \hyperpage{43}
+    \subitem {CriaMembroINEMInstSimples}, \hyperpage{43}
+    \subitem {CriaOcorrenciaInstCompleta}, \hyperpage{44}
+    \subitem {CriaOcorrenciaInstSimples}, \hyperpage{44}
+    \subitem {EquipaBombeiros}, \hyperpage{51}
+    \subitem {equipaBombeiros}, \hyperpage{50}
+    \subitem {EquipaINEM}, \hyperpage{51}
+    \subitem {equipaINEM}, \hyperpage{50}
+    \subitem {Equipamentos}, \hyperpage{51}
+    \subitem {equipamentos}, \hyperpage{51}
+    \subitem {ExisteBombeiroInst}, \hyperpage{44}
+    \subitem {ExisteEquipamentoInst}, \hyperpage{45}
+    \subitem {ExisteMembroINEMInst}, \hyperpage{45}
+    \subitem {ExisteOcorrenciaInst}, \hyperpage{45}
+    \subitem {GetBombeiroInst}, \hyperpage{46}
+    \subitem {GetMembroINEMInst}, \hyperpage{46}
+    \subitem {GuardaInstituicao}, \hyperpage{46}
+    \subitem {Instituicao}, \hyperpage{41}
+    \subitem {LerInstituicao}, \hyperpage{48}
+    \subitem {Nome}, \hyperpage{51}
+    \subitem {nome}, \hyperpage{51}
+    \subitem {Ocorrencias}, \hyperpage{51}
+    \subitem {ocorrencias}, \hyperpage{51}
+    \subitem {RemoveBombeiroInst}, \hyperpage{48}
+    \subitem {RemoveEquipamentoInst}, \hyperpage{48}
+    \subitem {RemoveMembroINEMInst}, \hyperpage{50}
+    \subitem {RemoveOcorrenciaInst}, \hyperpage{50}
+  \item {Dados.MembroINEM}, \hyperpage{52}
+    \subitem {\texorpdfstring{$\sim$}{\string~}MembroINEM}, 
+		\hyperpage{54}
+    \subitem {Especialidade}, \hyperpage{55}
+    \subitem {especialidade}, \hyperpage{54}
+    \subitem {MembroINEM}, \hyperpage{53, 54}
+    \subitem {ToString}, \hyperpage{54}
+  \item {Dados.Ocorrencia}, \hyperpage{57}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Ocorrencia}, 
+		\hyperpage{59}
+    \subitem {DataOcorrencia}, \hyperpage{60}
+    \subitem {dataOcorrencia}, \hyperpage{59}
+    \subitem {DescrOcorr}, \hyperpage{60}
+    \subitem {descrOcorr}, \hyperpage{59}
+    \subitem {Entidade}, \hyperpage{60}
+    \subitem {entidade}, \hyperpage{59}
+    \subitem {Estado}, \hyperpage{60}
+    \subitem {estado}, \hyperpage{59}
+    \subitem {Id}, \hyperpage{60}
+    \subitem {id}, \hyperpage{59}
+    \subitem {idCounter}, \hyperpage{60}
+    \subitem {Localizacao}, \hyperpage{60}
+    \subitem {localizacao}, \hyperpage{60}
+    \subitem {Ocorrencia}, \hyperpage{58}
+    \subitem {ToString}, \hyperpage{59}
+  \item {Dados.Ocorrencias}, \hyperpage{61}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Ocorrencias}, 
+		\hyperpage{62}
+    \subitem {Adiciona}, \hyperpage{62}
+    \subitem {Existe}, \hyperpage{62}
+    \subitem {Ocorrencias}, \hyperpage{62}
+    \subitem {ocorrencias}, \hyperpage{63}
+    \subitem {Remove}, \hyperpage{63}
+    \subitem {ToString}, \hyperpage{63}
+  \item {Dados.Pessoa}, \hyperpage{63}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Pessoa}, \hyperpage{65}
+    \subitem {Contacto}, \hyperpage{66}
+    \subitem {contacto}, \hyperpage{65}
+    \subitem {Email}, \hyperpage{66}
+    \subitem {email}, \hyperpage{65}
+    \subitem {Id}, \hyperpage{66}
+    \subitem {id}, \hyperpage{66}
+    \subitem {idCounter}, \hyperpage{66}
+    \subitem {Nome}, \hyperpage{66}
+    \subitem {nome}, \hyperpage{66}
+    \subitem {Pessoa}, \hyperpage{64, 65}
+    \subitem {ToString}, \hyperpage{65}
+  \item {Dados/Bombeiro.cs}, \hyperpage{75}
+  \item {Dados/EquipaBombeiros.cs}, \hyperpage{75}
+  \item {Dados/EquipaINEM.cs}, \hyperpage{76}
+  \item {Dados/Equipamento.cs}, \hyperpage{76}
+  \item {Dados/Equipamentos.cs}, \hyperpage{76}
+  \item {Dados/IMetodos.cs}, \hyperpage{76}
+  \item {Dados/Instituicao.cs}, \hyperpage{77}
+  \item {Dados/MembroINEM.cs}, \hyperpage{77}
+  \item {Dados/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{74}
+  \item {Dados/Ocorrencia.cs}, \hyperpage{77}
+  \item {Dados/Ocorrencias.cs}, \hyperpage{77}
+  \item {Dados/Pessoa.cs}, \hyperpage{78}
+  \item {Dados/Properties/AssemblyInfo.cs}, \hyperpage{75}
+  \item {DataOcorrencia}
+    \subitem {Dados.Ocorrencia}, \hyperpage{60}
+  \item {dataOcorrencia}
+    \subitem {Dados.Ocorrencia}, \hyperpage{59}
+  \item {DescrOcorr}
+    \subitem {Dados.Ocorrencia}, \hyperpage{60}
+  \item {descrOcorr}
+    \subitem {Dados.Ocorrencia}, \hyperpage{59}
+  \item {DISPONIVEL}
+    \subitem {Enums}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Email}
+    \subitem {Dados.Pessoa}, \hyperpage{66}
+  \item {email}
+    \subitem {Dados.Pessoa}, \hyperpage{65}
+  \item {EMAIL\_INVALIDO}
+    \subitem {Enums}, \hyperpage{11}
+  \item {ENFERMEIRO}
+    \subitem {Enums}, \hyperpage{11}
+  \item {Entidade}
+    \subitem {Dados.Equipamento}, \hyperpage{27}
+    \subitem {Dados.Ocorrencia}, \hyperpage{60}
+    \subitem {Enums}, \hyperpage{10}
+  \item {entidade}
+    \subitem {Dados.Equipamento}, \hyperpage{26}
+    \subitem {Dados.Ocorrencia}, \hyperpage{59}
+  \item {Enums}, \hyperpage{10}
+    \subitem {BOMBEIRO}, \hyperpage{12}
+    \subitem {BOMBEIROS}, \hyperpage{10}
+    \subitem {CONCLUIDA}, \hyperpage{11}
+    \subitem {CONTACTO\_INVALIDO}, \hyperpage{11}
+    \subitem {DISPONIVEL}, \hyperpage{11}
+    \subitem {EMAIL\_INVALIDO}, \hyperpage{11}
+    \subitem {ENFERMEIRO}, \hyperpage{11}
+    \subitem {Entidade}, \hyperpage{10}
+    \subitem {Erro}, \hyperpage{10}
+    \subitem {EspecialidadeINEM}, \hyperpage{11}
+    \subitem {EstadoEquip}, \hyperpage{11}
+    \subitem {EstadoOcorr}, \hyperpage{11}
+    \subitem {INDISPONIVEL}, \hyperpage{11}
+    \subitem {INEM}, \hyperpage{10}
+    \subitem {MANUTENCAO}, \hyperpage{11}
+    \subitem {MEDICO}, \hyperpage{11}
+    \subitem {OFICIAL}, \hyperpage{12}
+    \subitem {PatenteBombeiro}, \hyperpage{11}
+    \subitem {PENDENTE}, \hyperpage{11}
+  \item {Enums/Enumerados.cs}, \hyperpage{78}
+  \item {Enums/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{74}
+  \item {Enums/Properties/AssemblyInfo.cs}, \hyperpage{75}
+  \item {equipa}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{19}
+    \subitem {Dados.EquipaINEM}, \hyperpage{24}
+  \item {EquipaBombeiros}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{17}
+    \subitem {Dados.Instituicao}, \hyperpage{51}
+  \item {equipaBombeiros}
+    \subitem {Dados.Instituicao}, \hyperpage{50}
+  \item {EquipaINEM}
+    \subitem {Dados.EquipaINEM}, \hyperpage{21}
+    \subitem {Dados.Instituicao}, \hyperpage{51}
+  \item {equipaINEM}
+    \subitem {Dados.Instituicao}, \hyperpage{50}
+  \item {Equipamento}
+    \subitem {Dados.Equipamento}, \hyperpage{26}
+  \item {Equipamentos}
+    \subitem {Dados.Equipamentos}, \hyperpage{28}
+    \subitem {Dados.Instituicao}, \hyperpage{51}
+  \item {equipamentos}
+    \subitem {Dados.Equipamentos}, \hyperpage{31}
+    \subitem {Dados.Instituicao}, \hyperpage{51}
+  \item {Erro}
+    \subitem {Enums}, \hyperpage{10}
+  \item {erro}
+    \subitem {Exceptions.ValidationException}, \hyperpage{71}
+  \item {Especialidade}
+    \subitem {BusinessObjects.MembroINEMBO}, \hyperpage{57}
+    \subitem {Dados.MembroINEM}, \hyperpage{55}
+  \item {especialidade}
+    \subitem {BusinessObjects.MembroINEMBO}, \hyperpage{56}
+    \subitem {Dados.MembroINEM}, \hyperpage{54}
+  \item {EspecialidadeINEM}
+    \subitem {Enums}, \hyperpage{11}
+  \item {Estado}
+    \subitem {Dados.Equipamento}, \hyperpage{27}
+    \subitem {Dados.Ocorrencia}, \hyperpage{60}
+  \item {estado}
+    \subitem {Dados.Equipamento}, \hyperpage{26}
+    \subitem {Dados.Ocorrencia}, \hyperpage{59}
+  \item {EstadoEquip}
+    \subitem {Enums}, \hyperpage{11}
+  \item {EstadoOcorr}
+    \subitem {Enums}, \hyperpage{11}
+  \item {Exceptions}, \hyperpage{12}
+  \item {Exceptions.ValidationException}, \hyperpage{70}
+    \subitem {erro}, \hyperpage{71}
+    \subitem {ValidationException}, \hyperpage{71}
+  \item {Exceptions/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{74}
+  \item {Exceptions/Properties/AssemblyInfo.cs}, \hyperpage{75}
+  \item {Exceptions/ValidationException.cs}, \hyperpage{78}
+  \item {Existe}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{18}
+    \subitem {Dados.EquipaINEM}, \hyperpage{22}
+    \subitem {Dados.Equipamentos}, \hyperpage{30}
+    \subitem {Dados.Ocorrencias}, \hyperpage{62}
+  \item {ExisteBombeiro}
+    \subitem {Regras.GereInstituicao}, \hyperpage{35}
+  \item {ExisteBombeiroInst}
+    \subitem {Dados.Instituicao}, \hyperpage{44}
+  \item {ExisteEquipamento}
+    \subitem {Regras.GereInstituicao}, \hyperpage{36}
+  \item {ExisteEquipamentoInst}
+    \subitem {Dados.Instituicao}, \hyperpage{45}
+  \item {ExisteMembroINEM}
+    \subitem {Regras.GereInstituicao}, \hyperpage{36}
+  \item {ExisteMembroINEMInst}
+    \subitem {Dados.Instituicao}, \hyperpage{45}
+  \item {ExisteOcorrencia}
+    \subitem {Regras.GereInstituicao}, \hyperpage{37}
+  \item {ExisteOcorrenciaInst}
+    \subitem {Dados.Instituicao}, \hyperpage{45}
+
+  \indexspace
+
+  \item {GereInstituicao}
+    \subitem {Regras.GereInstituicao}, \hyperpage{32}
+  \item {GetBombeiro}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{18}
+    \subitem {Regras.GereInstituicao}, \hyperpage{37}
+  \item {GetBombeiroInst}
+    \subitem {Dados.Instituicao}, \hyperpage{46}
+  \item {GetMembro}
+    \subitem {Dados.EquipaINEM}, \hyperpage{22}
+  \item {GetMembroINEM}
+    \subitem {Regras.GereInstituicao}, \hyperpage{37}
+  \item {GetMembroINEMInst}
+    \subitem {Dados.Instituicao}, \hyperpage{46}
+  \item {GravaInstituicao}
+    \subitem {Regras.GereInstituicao}, \hyperpage{38}
+  \item {GuardaInstituicao}
+    \subitem {Dados.Instituicao}, \hyperpage{46}
+
+  \indexspace
+
+  \item {Id}
+    \subitem {BusinessObjects.PessoaBO}, \hyperpage{68}
+    \subitem {Dados.Equipamento}, \hyperpage{27}
+    \subitem {Dados.Ocorrencia}, \hyperpage{60}
+    \subitem {Dados.Pessoa}, \hyperpage{66}
+  \item {id}
+    \subitem {BusinessObjects.PessoaBO}, \hyperpage{68}
+    \subitem {Dados.Equipamento}, \hyperpage{27}
+    \subitem {Dados.Ocorrencia}, \hyperpage{59}
+    \subitem {Dados.Pessoa}, \hyperpage{66}
+  \item {idCounter}
+    \subitem {Dados.Equipamento}, \hyperpage{27}
+    \subitem {Dados.Ocorrencia}, \hyperpage{60}
+    \subitem {Dados.Pessoa}, \hyperpage{66}
+  \item {INDISPONIVEL}
+    \subitem {Enums}, \hyperpage{11}
+  \item {INEM}
+    \subitem {Enums}, \hyperpage{10}
+  \item {Instituicao}
+    \subitem {Dados.Instituicao}, \hyperpage{41}
+  \item {instituicao}
+    \subitem {Regras.GereInstituicao}, \hyperpage{39}
+
+  \indexspace
+
+  \item {LerInstituicao}
+    \subitem {Dados.Instituicao}, \hyperpage{48}
+  \item {Localizacao}
+    \subitem {Dados.Ocorrencia}, \hyperpage{60}
+  \item {localizacao}
+    \subitem {Dados.Ocorrencia}, \hyperpage{60}
+
+  \indexspace
+
+  \item {MANUTENCAO}
+    \subitem {Enums}, \hyperpage{11}
+  \item {MEDICO}
+    \subitem {Enums}, \hyperpage{11}
+  \item {MembroINEM}
+    \subitem {Dados.MembroINEM}, \hyperpage{53, 54}
+  \item {MembroINEMBO}
+    \subitem {BusinessObjects.MembroINEMBO}, \hyperpage{56}
+
+  \indexspace
+
+  \item {Nome}
+    \subitem {BusinessObjects.PessoaBO}, \hyperpage{68}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{20}
+    \subitem {Dados.EquipaINEM}, \hyperpage{24}
+    \subitem {Dados.Equipamento}, \hyperpage{27}
+    \subitem {Dados.Instituicao}, \hyperpage{51}
+    \subitem {Dados.Pessoa}, \hyperpage{66}
+  \item {nome}
+    \subitem {BusinessObjects.PessoaBO}, \hyperpage{68}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{19}
+    \subitem {Dados.EquipaINEM}, \hyperpage{24}
+    \subitem {Dados.Equipamento}, \hyperpage{27}
+    \subitem {Dados.Instituicao}, \hyperpage{51}
+    \subitem {Dados.Pessoa}, \hyperpage{66}
+
+  \indexspace
+
+  \item {Ocorrencia}
+    \subitem {Dados.Ocorrencia}, \hyperpage{58}
+  \item {Ocorrencias}
+    \subitem {Dados.Instituicao}, \hyperpage{51}
+    \subitem {Dados.Ocorrencias}, \hyperpage{62}
+  \item {ocorrencias}
+    \subitem {Dados.Instituicao}, \hyperpage{51}
+    \subitem {Dados.Ocorrencias}, \hyperpage{63}
+  \item {OFICIAL}
+    \subitem {Enums}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Patente}
+    \subitem {Dados.Bombeiro}, \hyperpage{16}
+  \item {patente}
+    \subitem {Dados.Bombeiro}, \hyperpage{16}
+  \item {PatenteBombeiro}
+    \subitem {Enums}, \hyperpage{11}
+  \item {PENDENTE}
+    \subitem {Enums}, \hyperpage{11}
+  \item {Pessoa}
+    \subitem {Dados.Pessoa}, \hyperpage{64, 65}
+  \item {PessoaBO}
+    \subitem {BusinessObjects.PessoaBO}, \hyperpage{67}
+
+  \indexspace
+
+  \item {Regras}, \hyperpage{12}
+  \item {Regras.GereInstituicao}, \hyperpage{31}
+    \subitem {CriaBombeiroCompleto}, \hyperpage{33}
+    \subitem {CriaBombeiroSimples}, \hyperpage{33}
+    \subitem {CriaEquipamento}, \hyperpage{33}
+    \subitem {CriaMembroINEMCompleto}, \hyperpage{34}
+    \subitem {CriaMembroINEMSimples}, \hyperpage{34}
+    \subitem {CriaOcorrenciaCompleta}, \hyperpage{35}
+    \subitem {CriaOcorrenciaSimples}, \hyperpage{35}
+    \subitem {ExisteBombeiro}, \hyperpage{35}
+    \subitem {ExisteEquipamento}, \hyperpage{36}
+    \subitem {ExisteMembroINEM}, \hyperpage{36}
+    \subitem {ExisteOcorrencia}, \hyperpage{37}
+    \subitem {GereInstituicao}, \hyperpage{32}
+    \subitem {GetBombeiro}, \hyperpage{37}
+    \subitem {GetMembroINEM}, \hyperpage{37}
+    \subitem {GravaInstituicao}, \hyperpage{38}
+    \subitem {instituicao}, \hyperpage{39}
+    \subitem {RemoveBombeiro}, \hyperpage{38}
+    \subitem {RemoveEquipamento}, \hyperpage{38}
+    \subitem {RemoveMembroINEM}, \hyperpage{39}
+    \subitem {RemoveOcorrencia}, \hyperpage{39}
+  \item {Regras/GereInstituicao.cs}, \hyperpage{79}
+  \item {Regras/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{74}
+  \item {Regras/Properties/AssemblyInfo.cs}, \hyperpage{75}
+  \item {Remove}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{19}
+    \subitem {Dados.EquipaINEM}, \hyperpage{22}
+    \subitem {Dados.Equipamentos}, \hyperpage{30}
+    \subitem {Dados.Ocorrencias}, \hyperpage{63}
+  \item {RemoveBombeiro}
+    \subitem {Regras.GereInstituicao}, \hyperpage{38}
+  \item {RemoveBombeiroInst}
+    \subitem {Dados.Instituicao}, \hyperpage{48}
+  \item {RemoveEquipamento}
+    \subitem {Regras.GereInstituicao}, \hyperpage{38}
+  \item {RemoveEquipamentoInst}
+    \subitem {Dados.Instituicao}, \hyperpage{48}
+  \item {RemoveMembroINEM}
+    \subitem {Regras.GereInstituicao}, \hyperpage{39}
+  \item {RemoveMembroINEMInst}
+    \subitem {Dados.Instituicao}, \hyperpage{50}
+  \item {RemoveOcorrencia}
+    \subitem {Regras.GereInstituicao}, \hyperpage{39}
+  \item {RemoveOcorrenciaInst}
+    \subitem {Dados.Instituicao}, \hyperpage{50}
+
+  \indexspace
+
+  \item {Testes}, \hyperpage{12}
+  \item {Testes.Testes}, \hyperpage{68}
+    \subitem {Constructor\_ParametrosInvalidos\_EsperaExcecaoContactoInvalido}, 
+		\hyperpage{69}
+    \subitem {Constructor\_ParametrosValidos\_Bombeiro}, \hyperpage{69}
+  \item {Testes/MSTestSettings.cs}, \hyperpage{79}
+  \item {Testes/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs}, 
+		\hyperpage{79}
+  \item {Testes/obj/Debug/net8.0/Testes.AssemblyInfo.cs}, 
+		\hyperpage{79}
+  \item {Testes/obj/Debug/net8.0/Testes.GlobalUsings.g.cs}, 
+		\hyperpage{79}
+  \item {Testes/Testes.cs}, \hyperpage{79}
+  \item {ToString}
+    \subitem {Dados.Bombeiro}, \hyperpage{15}
+    \subitem {Dados.EquipaBombeiros}, \hyperpage{19}
+    \subitem {Dados.EquipaINEM}, \hyperpage{24}
+    \subitem {Dados.Equipamento}, \hyperpage{26}
+    \subitem {Dados.Equipamentos}, \hyperpage{30}
+    \subitem {Dados.MembroINEM}, \hyperpage{54}
+    \subitem {Dados.Ocorrencia}, \hyperpage{59}
+    \subitem {Dados.Ocorrencias}, \hyperpage{63}
+    \subitem {Dados.Pessoa}, \hyperpage{65}
+  \item {TrabalhoPOO\_26042}, \hyperpage{12}
+  \item {TrabalhoPOO\_26042/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{74}
+  \item {TrabalhoPOO\_26042/Program.cs}, \hyperpage{79}
+  \item {TrabalhoPOO\_26042/Properties/AssemblyInfo.cs}, \hyperpage{75}
+
+  \indexspace
+
+  \item {Validacoes}, \hyperpage{12}
+  \item {Validacoes.Validar}, \hyperpage{69}
+    \subitem {VerificaContacto}, \hyperpage{70}
+    \subitem {VerificaEmail}, \hyperpage{70}
+  \item {Validacoes/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs}, 
+		\hyperpage{74}
+  \item {Validacoes/Properties/AssemblyInfo.cs}, \hyperpage{75}
+  \item {Validacoes/Validacoes.cs}, \hyperpage{80}
+  \item {ValidationException}
+    \subitem {Exceptions.ValidationException}, \hyperpage{71}
+  \item {VerificaContacto}
+    \subitem {Validacoes.Validar}, \hyperpage{70}
+  \item {VerificaEmail}
+    \subitem {Validacoes.Validar}, \hyperpage{70}
+
+\end{theindex}

@@ -1,0 +1,11 @@
+digraph "Dados.Instituicao.RemoveOcorrenciaInst"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Dados.Instituicao.Remove\lOcorrenciaInst",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Funcao que remove uma determinada ocorrencia na lista de ocorrencias da instituicao."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Regras.GereInstituicao.Remove\lOcorrencia",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#a8b7a5e8367a78ae3dcdaf3700c848dc1",tooltip="Funcao que remove uma ocorrencia da instituicao."];
+}

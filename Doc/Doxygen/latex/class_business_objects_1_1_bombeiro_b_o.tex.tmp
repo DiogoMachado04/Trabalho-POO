@@ -1,0 +1,125 @@
+\doxysection{Business\+Objects.\+Bombeiro\+BO Class Reference}
+\hypertarget{class_business_objects_1_1_bombeiro_b_o}{}\label{class_business_objects_1_1_bombeiro_b_o}\index{BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}}
+
+
+Purpose\+: Class Bombeiro\+BO que contem a patente do bombeiro Created by\+: diogo Created on\+: 12/20/2024 3\+:23\+:49 PM.  
+
+
+
+
+Inheritance diagram for Business\+Objects.\+Bombeiro\+BO\+:
+% FIG 0
+
+
+Collaboration diagram for Business\+Objects.\+Bombeiro\+BO\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o_a822632dfc3335076e83b800b75c1b51b}{Bombeiro\+BO}} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o_a6931fcb85638665f25b51c36c5150625}{Bombeiro\+BO}} (int \mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o_af188013f87619acc80cc78e39cd1e5d4}{id}}, string \mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o_a9662ee42fa66ac6640b4aa11e99b6219}{nome}}, \mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}} \mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o_a521883ab77c1aaa43f63f59b44cecc7e}{patente}})
+\begin{DoxyCompactList}\small\item\em Construtor da class Bombeiro\+BO com a indicacao do id, nome e patente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o}{Business\+Objects.\+Pessoa\+BO}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o_ace757d68ea49760dc8d58346846789df}{Pessoa\+BO}} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o_af251ac78d862a52a5e7cf9dca2ff03a9}{Pessoa\+BO}} (int \mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o_af188013f87619acc80cc78e39cd1e5d4}{id}}, string \mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o_a9662ee42fa66ac6640b4aa11e99b6219}{nome}})
+\begin{DoxyCompactList}\small\item\em Construtor da class Pessoa\+BO com a indicacao do id e do nome. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}} \mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o_aa522d156068faf5106f5806d037550f5}{Patente}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Get ou set da patente do bombeiro. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o}{Business\+Objects.\+Pessoa\+BO}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o_a6e03b4a7e8352fdc75de51bbbd9a5871}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Get ou set do id da Pessoa. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_business_objects_1_1_pessoa_b_o_a10f46c4a1d90268d85b5a25974a997cf}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Get ou set do nome da Pessoa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o_a3a3750e54436a7c875ebaeaea64abab1}{\texorpdfstring{$\sim$}{\string~}\+Bombeiro\+BO}} ()
+\begin{DoxyCompactList}\small\item\em The destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}} \mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o_a521883ab77c1aaa43f63f59b44cecc7e}{patente}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Class Bombeiro\+BO que contem a patente do bombeiro Created by\+: diogo Created on\+: 12/20/2024 3\+:23\+:49 PM. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_business_objects_1_1_bombeiro_b_o_a822632dfc3335076e83b800b75c1b51b}\label{class_business_objects_1_1_bombeiro_b_o_a822632dfc3335076e83b800b75c1b51b} 
+\index{BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}!BombeiroBO@{BombeiroBO}}
+\index{BombeiroBO@{BombeiroBO}!BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}}
+\doxysubsubsection{\texorpdfstring{BombeiroBO()}{BombeiroBO()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Business\+Objects.\+Bombeiro\+BO.\+Bombeiro\+BO (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The default Constructor. 
+
+\Hypertarget{class_business_objects_1_1_bombeiro_b_o_a6931fcb85638665f25b51c36c5150625}\label{class_business_objects_1_1_bombeiro_b_o_a6931fcb85638665f25b51c36c5150625} 
+\index{BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}!BombeiroBO@{BombeiroBO}}
+\index{BombeiroBO@{BombeiroBO}!BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}}
+\doxysubsubsection{\texorpdfstring{BombeiroBO()}{BombeiroBO()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Business\+Objects.\+Bombeiro\+BO.\+Bombeiro\+BO (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{string}]{nome,  }\item[{\mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}}}]{patente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da class Bombeiro\+BO com a indicacao do id, nome e patente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id do bombeiro\\
+\hline
+{\em nome} & Nome do bombeiro\\
+\hline
+{\em patente} & Patente do bombeiro\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_business_objects_1_1_bombeiro_b_o_a3a3750e54436a7c875ebaeaea64abab1}\label{class_business_objects_1_1_bombeiro_b_o_a3a3750e54436a7c875ebaeaea64abab1} 
+\index{BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}!````~BombeiroBO@{\texorpdfstring{$\sim$}{\string~}BombeiroBO}}
+\index{````~BombeiroBO@{\texorpdfstring{$\sim$}{\string~}BombeiroBO}!BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}BombeiroBO()}{\string~BombeiroBO()}}
+{\footnotesize\ttfamily Business\+Objects.\+Bombeiro\+BO.\texorpdfstring{$\sim$}{\string~}\+Bombeiro\+BO (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+The destructor. 
+
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{class_business_objects_1_1_bombeiro_b_o_a521883ab77c1aaa43f63f59b44cecc7e}\label{class_business_objects_1_1_bombeiro_b_o_a521883ab77c1aaa43f63f59b44cecc7e} 
+\index{BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}!patente@{patente}}
+\index{patente@{patente}!BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}}
+\doxysubsubsection{\texorpdfstring{patente}{patente}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}} Business\+Objects.\+Bombeiro\+BO.\+patente\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_business_objects_1_1_bombeiro_b_o_aa522d156068faf5106f5806d037550f5}\label{class_business_objects_1_1_bombeiro_b_o_aa522d156068faf5106f5806d037550f5} 
+\index{BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}!Patente@{Patente}}
+\index{Patente@{Patente}!BusinessObjects.BombeiroBO@{BusinessObjects.BombeiroBO}}
+\doxysubsubsection{\texorpdfstring{Patente}{Patente}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}} Business\+Objects.\+Bombeiro\+BO.\+Patente\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Get ou set da patente do bombeiro. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Business\+Objects/\mbox{\hyperlink{_bombeiro_b_o_8cs}{Bombeiro\+BO.\+cs}}\end{DoxyCompactItemize}

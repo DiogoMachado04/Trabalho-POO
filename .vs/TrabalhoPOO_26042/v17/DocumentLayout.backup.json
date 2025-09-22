@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Aulas\\2\u00BA ano\\1\u00BA semestre\\POO\\TrabalhoPOO_26042\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B38C47-7638-4D03-BB34-F6704375D479}|Testes\\Testes.csproj|c:\\aulas\\2\u00BA ano\\1\u00BA semestre\\poo\\trabalhopoo_26042\\testes\\testes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B38C47-7638-4D03-BB34-F6704375D479}|Testes\\Testes.csproj|solutionrelative:testes\\testes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D8DE06-CA01-4C28-8BA3-100E143AD2DA}|Validacoes\\Validacoes.csproj|C:\\Aulas\\2\u00BA ano\\1\u00BA semestre\\POO\\TrabalhoPOO_26042\\validacoes\\validacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D8DE06-CA01-4C28-8BA3-100E143AD2DA}|Validacoes\\Validacoes.csproj|solutionrelative:validacoes\\validacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Validacoes.cs",
+              "DocumentMoniker": "C:\\Aulas\\2\u00BA ano\\1\u00BA semestre\\POO\\TrabalhoPOO_26042\\Validacoes\\Validacoes.cs",
+              "RelativeDocumentMoniker": "Validacoes\\Validacoes.cs",
+              "ToolTip": "C:\\Aulas\\2\u00BA ano\\1\u00BA semestre\\POO\\TrabalhoPOO_26042\\Validacoes\\Validacoes.cs",
+              "RelativeToolTip": "Validacoes\\Validacoes.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:26:15.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Testes.cs",
+              "DocumentMoniker": "C:\\Aulas\\2\u00BA ano\\1\u00BA semestre\\POO\\TrabalhoPOO_26042\\Testes\\Testes.cs",
+              "RelativeDocumentMoniker": "Testes\\Testes.cs",
+              "ToolTip": "C:\\Aulas\\2\u00BA ano\\1\u00BA semestre\\POO\\TrabalhoPOO_26042\\Testes\\Testes.cs",
+              "RelativeToolTip": "Testes\\Testes.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:26:12.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

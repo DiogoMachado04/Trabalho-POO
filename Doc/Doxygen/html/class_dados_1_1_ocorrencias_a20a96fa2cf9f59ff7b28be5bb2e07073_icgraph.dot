@@ -1,0 +1,29 @@
+digraph "Dados.Ocorrencias.Existe"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Dados.Ocorrencias.Existe",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Funcao que verifica se existe uma determinada ocorrencia num dicionario de ocorrencias."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Dados.Ocorrencias.Adiciona",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_ocorrencias.html#a80873f73dd8c9752a2ead8325cebfd94",tooltip="Funcao que adiciona uma ocorrencia num dicionario de ocorrencias."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Dados.Instituicao.CriaOcorrencia\lInstCompleta",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#a9d65237faf8d8c1e131f39094a852357",tooltip="Funcao que adiciona uma ocorrencia na lista de ocorrencias da instituicao."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Regras.GereInstituicao.Cria\lOcorrenciaCompleta",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#af9e41501ec536152d70be3e36c398f32",tooltip="Funcao que cria uma ocorrencia completa."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Dados.Instituicao.CriaOcorrencia\lInstSimples",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#ae6d85d87191fd9a640bae493e83bd6f6",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Regras.GereInstituicao.Cria\lOcorrenciaSimples",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#aa379004ac9b3958288ecda70219ad702",tooltip="Funcao que cria uma ocorrencia simples."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Dados.Instituicao.Existe\lOcorrenciaInst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#a0e785cac748ed2697eef064f674d89ab",tooltip="Funcao que verifica se existe uma determinada ocorrencia na lista de ocorrencias da instituicao."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="Regras.GereInstituicao.Existe\lOcorrencia",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#a19297c9b9df6cb05e0abe37a8d0d8429",tooltip="Funcao que verifica se uma ocorrencia existe na instituicao."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="Dados.Ocorrencias.Remove",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_ocorrencias.html#a265888719d7aef748d0d965de6eda913",tooltip="Funcao que remove uma determinada ocorrencia de um dicionario de ocorrencias."];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="Dados.Instituicao.Remove\lOcorrenciaInst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#acd39d4d9b21c5e77e7d3096ff7b1e486",tooltip="Funcao que remove uma determinada ocorrencia na lista de ocorrencias da instituicao."];
+  Node10 -> Node11 [id="edge10_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="Regras.GereInstituicao.Remove\lOcorrencia",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#a8b7a5e8367a78ae3dcdaf3700c848dc1",tooltip="Funcao que remove uma ocorrencia da instituicao."];
+}

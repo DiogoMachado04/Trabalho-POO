@@ -1,0 +1,614 @@
+\doxysection{Dados.\+Instituicao Class Reference}
+\hypertarget{class_dados_1_1_instituicao}{}\label{class_dados_1_1_instituicao}\index{Dados.Instituicao@{Dados.Instituicao}}
+
+
+Purpose\+: Class Instituicao com as listas de tudo o que faz parte da instituicao Created by\+: diogo Created on\+: 11/12/2024 11\+:08\+:33 AM.  
+
+
+
+
+Collaboration diagram for Dados.\+Instituicao\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_instituicao_a59d9c01f196688d268f7bd63a5c73f77}{Instituicao}} ()
+\begin{DoxyCompactList}\small\item\em The default Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_instituicao_a9836e5bec0a2e55fa7c09d8c23fc9ac5}{Instituicao}} (\mbox{\hyperlink{class_dados_1_1_equipa_bombeiros}{Equipa\+Bombeiros}} \mbox{\hyperlink{class_dados_1_1_instituicao_a9a6611dfae0f825fbb2dd263072a8de1}{equipa\+Bombeiros}}, \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m}{Equipa\+INEM}} \mbox{\hyperlink{class_dados_1_1_instituicao_aaffb409a8b0a7a411c6a0682af2c738f}{equipa\+INEM}}, \mbox{\hyperlink{class_dados_1_1_equipamentos}{Equipamentos}} \mbox{\hyperlink{class_dados_1_1_instituicao_a76ca4b04b44ebc3f4b2b279f25881549}{equipamentos}}, \mbox{\hyperlink{class_dados_1_1_ocorrencias}{Ocorrencias}} \mbox{\hyperlink{class_dados_1_1_instituicao_a6e20e1170e1c1e2db7d0cb619a98f4dc}{ocorrencias}}, string \mbox{\hyperlink{class_dados_1_1_instituicao_a8ece97b1ced4185e7fbadaaefc3526b3}{nome}})
+\begin{DoxyCompactList}\small\item\em Construtor da class Instituicao com indicacao de todos os seus atributos. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_ab4c9353013ce417cc41ad0420752336c}{Cria\+Membro\+INEMInst\+Completo}} (string nome\+Membro, string contacto, string email, \mbox{\hyperlink{namespace_enums_a872875c0170aff37135e8617ca222023}{Especialidade\+INEM}} especialidade)
+\begin{DoxyCompactList}\small\item\em Funcao que adiciona um membro do INEM na lista da equipa de INEM da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a3b3e942e4b9c596cec2189f0e41c6368}{Cria\+Membro\+INEMInst\+Simples}} (string nome\+Membro, \mbox{\hyperlink{namespace_enums_a872875c0170aff37135e8617ca222023}{Especialidade\+INEM}} especialidade)
+\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a52c2b02adc97d778bbca65f82498a727}{Existe\+Membro\+INEMInst}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se um determinado membro do INEM existe na lista da equipa de INEM instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_aa029529070a2da32f07df3bd3ac09ff9}{Remove\+Membro\+INEMInst}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que remove um determinado membro do INEM na lista da equipa de INEM da instituicao. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_business_objects_1_1_membro_i_n_e_m_b_o}{Membro\+INEMBO}} \mbox{\hyperlink{class_dados_1_1_instituicao_a7355bed1de53edf16e70e8f857e725e9}{Get\+Membro\+INEMInst}} (int id\+Membro)
+\begin{DoxyCompactList}\small\item\em Funcao que devolve as informacoes de um membro do INEM da equipa de INEM da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a9b1d3b744509ce85ddabc68ca0766786}{Cria\+Bombeiro\+Inst\+Completo}} (string nome\+Bombeiro, string contacto, string email, \mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}} patente)
+\begin{DoxyCompactList}\small\item\em Funcao que adiciona um bombeiro na lista da equipa de bombeiros da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_ab6550f84ba64cd447ce9d52f88188107}{Cria\+Bombeiro\+Inst\+Simples}} (string nome\+Bombeiro, \mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}} patente)
+\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a0e55dc97c52f0bec7c50b75f429e4cbe}{Existe\+Bombeiro\+Inst}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se existe ou nao um determinado bombeiro na lista da equipa de bombeiros da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a8475f7f0d4657de1b67d99bf09ed7fe6}{Remove\+Bombeiro\+Inst}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que remove um determinado bombeiro na lista da equipa de bombeiros da instituicao. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o}{Bombeiro\+BO}} \mbox{\hyperlink{class_dados_1_1_instituicao_aeccde949f153f099c1bdf4073bda7850}{Get\+Bombeiro\+Inst}} (int id\+Bombeiro)
+\begin{DoxyCompactList}\small\item\em Funcao que devolve as informacoes de um bombeiro da equipa de bombeiros da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_acabfa78ad26a889c00ed68bae8cec1fe}{Cria\+Equipamento\+Inst}} (string nome\+Equipamento, \mbox{\hyperlink{namespace_enums_ab8428e597e809f049d41102bc918503c}{Estado\+Equip}} estado, \mbox{\hyperlink{namespace_enums_a9e99ac339a87b8e34f417026af9c3b6f}{Entidade}} entidade)
+\begin{DoxyCompactList}\small\item\em Funcao que adiciona um equipamento na lista de equipamentos da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a9cec9169a02a9a3c12cda778fc2e5797}{Existe\+Equipamento\+Inst}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se existe um determinado equipamento na lista de equipamentos da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_ab3552544b70c74bf2920f3e2c074f7ee}{Remove\+Equipamento\+Inst}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que remove um determinado equipamento na lista de equipamentos da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a9d65237faf8d8c1e131f39094a852357}{Cria\+Ocorrencia\+Inst\+Completa}} (Date\+Time data\+Ocorrencia, string localizacao, string descr\+Ocorr, \mbox{\hyperlink{namespace_enums_aa91f43a848f6f03f8e406c84f1740110}{Estado\+Ocorr}} estado, \mbox{\hyperlink{namespace_enums_a9e99ac339a87b8e34f417026af9c3b6f}{Entidade}} entidade)
+\begin{DoxyCompactList}\small\item\em Funcao que adiciona uma ocorrencia na lista de ocorrencias da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_ae6d85d87191fd9a640bae493e83bd6f6}{Cria\+Ocorrencia\+Inst\+Simples}} (Date\+Time data\+Ocorrencia, string localizacao, string descr\+Ocorr)
+\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a0e785cac748ed2697eef064f674d89ab}{Existe\+Ocorrencia\+Inst}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se existe uma determinada ocorrencia na lista de ocorrencias da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_acd39d4d9b21c5e77e7d3096ff7b1e486}{Remove\+Ocorrencia\+Inst}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que remove uma determinada ocorrencia na lista de ocorrencias da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a8ddf8f9a135dd92dd98d1b6c387ec8a6}{Guarda\+Instituicao}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Funcao que guarda todos os dados que fazem parte da instituicao num ficheiro binario. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_instituicao_a9c39e1c008ef654ace422097b3058c18}{Ler\+Instituicao}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Funcao que le dos dados de uma instituicao de um ficheiro binario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_equipa_bombeiros}{Equipa\+Bombeiros}} \mbox{\hyperlink{class_dados_1_1_instituicao_ac8c4b1185f47e0df780f7c14d48de4de}{Equipa\+Bombeiros}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Get ou set da equipa de bombeiros da instituicao. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m}{Equipa\+INEM}} \mbox{\hyperlink{class_dados_1_1_instituicao_ac35f237d5974ea96b54e27c781a49dd5}{Equipa\+INEM}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Get ou set da equipa de INEM da instituicao. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_equipamentos}{Equipamentos}} \mbox{\hyperlink{class_dados_1_1_instituicao_a6f1eed84bfe976ef168aa96d3d6b86dd}{Equipamentos}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Get ou set da lista de equipamentos da instituicao. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_ocorrencias}{Ocorrencias}} \mbox{\hyperlink{class_dados_1_1_instituicao_aa0177ccae7346c28ec0a4b2e9b46d51c}{Ocorrencias}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Get ou set da lista de ocorrencias da instituicao. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_dados_1_1_instituicao_a49a98c7eaacd3b7a1361c53074074a94}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Get ou set do nome da instituicao. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_instituicao_a983b0100de9fe6226bf5cb4f25f1c2b4}{\texorpdfstring{$\sim$}{\string~}\+Instituicao}} ()
+\begin{DoxyCompactList}\small\item\em The destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_dados_1_1_instituicao_a8ece97b1ced4185e7fbadaaefc3526b3}{nome}}
+\item 
+\mbox{\hyperlink{class_dados_1_1_equipa_bombeiros}{Equipa\+Bombeiros}} \mbox{\hyperlink{class_dados_1_1_instituicao_a9a6611dfae0f825fbb2dd263072a8de1}{equipa\+Bombeiros}}
+\item 
+\mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m}{Equipa\+INEM}} \mbox{\hyperlink{class_dados_1_1_instituicao_aaffb409a8b0a7a411c6a0682af2c738f}{equipa\+INEM}}
+\item 
+\mbox{\hyperlink{class_dados_1_1_equipamentos}{Equipamentos}} \mbox{\hyperlink{class_dados_1_1_instituicao_a76ca4b04b44ebc3f4b2b279f25881549}{equipamentos}}
+\item 
+\mbox{\hyperlink{class_dados_1_1_ocorrencias}{Ocorrencias}} \mbox{\hyperlink{class_dados_1_1_instituicao_a6e20e1170e1c1e2db7d0cb619a98f4dc}{ocorrencias}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Class Instituicao com as listas de tudo o que faz parte da instituicao Created by\+: diogo Created on\+: 11/12/2024 11\+:08\+:33 AM. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_dados_1_1_instituicao_a59d9c01f196688d268f7bd63a5c73f77}\label{class_dados_1_1_instituicao_a59d9c01f196688d268f7bd63a5c73f77} 
+\index{Dados.Instituicao@{Dados.Instituicao}!Instituicao@{Instituicao}}
+\index{Instituicao@{Instituicao}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{Instituicao()}{Instituicao()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Dados.\+Instituicao.\+Instituicao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The default Constructor. 
+
+Here is the caller graph for this function\+:
+% FIG 1
+\Hypertarget{class_dados_1_1_instituicao_a9836e5bec0a2e55fa7c09d8c23fc9ac5}\label{class_dados_1_1_instituicao_a9836e5bec0a2e55fa7c09d8c23fc9ac5} 
+\index{Dados.Instituicao@{Dados.Instituicao}!Instituicao@{Instituicao}}
+\index{Instituicao@{Instituicao}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{Instituicao()}{Instituicao()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Dados.\+Instituicao.\+Instituicao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_dados_1_1_equipa_bombeiros}{Equipa\+Bombeiros}}}]{equipa\+Bombeiros,  }\item[{\mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m}{Equipa\+INEM}}}]{equipa\+INEM,  }\item[{\mbox{\hyperlink{class_dados_1_1_equipamentos}{Equipamentos}}}]{equipamentos,  }\item[{\mbox{\hyperlink{class_dados_1_1_ocorrencias}{Ocorrencias}}}]{ocorrencias,  }\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da class Instituicao com indicacao de todos os seus atributos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em equipa\+Bombeiros} & Lista da equipa de bombeiros da instituicao\\
+\hline
+{\em equipa\+INEM} & Lista da equipa de membros do INEM\\
+\hline
+{\em equipamentos} & Lista dos equipamentos da instituicao\\
+\hline
+{\em ocorrencias} & Lista das ocorrencias da instituicao\\
+\hline
+{\em nome} & Nome da instituicao\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_dados_1_1_instituicao_a983b0100de9fe6226bf5cb4f25f1c2b4}\label{class_dados_1_1_instituicao_a983b0100de9fe6226bf5cb4f25f1c2b4} 
+\index{Dados.Instituicao@{Dados.Instituicao}!````~Instituicao@{\texorpdfstring{$\sim$}{\string~}Instituicao}}
+\index{````~Instituicao@{\texorpdfstring{$\sim$}{\string~}Instituicao}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Instituicao()}{\string~Instituicao()}}
+{\footnotesize\ttfamily Dados.\+Instituicao.\texorpdfstring{$\sim$}{\string~}\+Instituicao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+The destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dados_1_1_instituicao_a9b1d3b744509ce85ddabc68ca0766786}\label{class_dados_1_1_instituicao_a9b1d3b744509ce85ddabc68ca0766786} 
+\index{Dados.Instituicao@{Dados.Instituicao}!CriaBombeiroInstCompleto@{CriaBombeiroInstCompleto}}
+\index{CriaBombeiroInstCompleto@{CriaBombeiroInstCompleto}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{CriaBombeiroInstCompleto()}{CriaBombeiroInstCompleto()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Cria\+Bombeiro\+Inst\+Completo (\begin{DoxyParamCaption}\item[{string}]{nome\+Bombeiro,  }\item[{string}]{contacto,  }\item[{string}]{email,  }\item[{\mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}}}]{patente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que adiciona um bombeiro na lista da equipa de bombeiros da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bombeiro} & Bombeiro que se pretende adicionar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se adicionou com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 2
+Here is the caller graph for this function\+:
+% FIG 3
+\Hypertarget{class_dados_1_1_instituicao_ab6550f84ba64cd447ce9d52f88188107}\label{class_dados_1_1_instituicao_ab6550f84ba64cd447ce9d52f88188107} 
+\index{Dados.Instituicao@{Dados.Instituicao}!CriaBombeiroInstSimples@{CriaBombeiroInstSimples}}
+\index{CriaBombeiroInstSimples@{CriaBombeiroInstSimples}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{CriaBombeiroInstSimples()}{CriaBombeiroInstSimples()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Cria\+Bombeiro\+Inst\+Simples (\begin{DoxyParamCaption}\item[{string}]{nome\+Bombeiro,  }\item[{\mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}}}]{patente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+% FIG 4
+Here is the caller graph for this function\+:
+% FIG 5
+\Hypertarget{class_dados_1_1_instituicao_acabfa78ad26a889c00ed68bae8cec1fe}\label{class_dados_1_1_instituicao_acabfa78ad26a889c00ed68bae8cec1fe} 
+\index{Dados.Instituicao@{Dados.Instituicao}!CriaEquipamentoInst@{CriaEquipamentoInst}}
+\index{CriaEquipamentoInst@{CriaEquipamentoInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{CriaEquipamentoInst()}{CriaEquipamentoInst()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Cria\+Equipamento\+Inst (\begin{DoxyParamCaption}\item[{string}]{nome\+Equipamento,  }\item[{\mbox{\hyperlink{namespace_enums_ab8428e597e809f049d41102bc918503c}{Estado\+Equip}}}]{estado,  }\item[{\mbox{\hyperlink{namespace_enums_a9e99ac339a87b8e34f417026af9c3b6f}{Entidade}}}]{entidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que adiciona um equipamento na lista de equipamentos da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em equipamento} & Equipamento que se pretende adicionar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se adicionou com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 6
+Here is the caller graph for this function\+:
+% FIG 7
+\Hypertarget{class_dados_1_1_instituicao_ab4c9353013ce417cc41ad0420752336c}\label{class_dados_1_1_instituicao_ab4c9353013ce417cc41ad0420752336c} 
+\index{Dados.Instituicao@{Dados.Instituicao}!CriaMembroINEMInstCompleto@{CriaMembroINEMInstCompleto}}
+\index{CriaMembroINEMInstCompleto@{CriaMembroINEMInstCompleto}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{CriaMembroINEMInstCompleto()}{CriaMembroINEMInstCompleto()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Cria\+Membro\+INEMInst\+Completo (\begin{DoxyParamCaption}\item[{string}]{nome\+Membro,  }\item[{string}]{contacto,  }\item[{string}]{email,  }\item[{\mbox{\hyperlink{namespace_enums_a872875c0170aff37135e8617ca222023}{Especialidade\+INEM}}}]{especialidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que adiciona um membro do INEM na lista da equipa de INEM da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em membro} & Membro que se pretende adicionar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se adicionou com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 8
+Here is the caller graph for this function\+:
+% FIG 9
+\Hypertarget{class_dados_1_1_instituicao_a3b3e942e4b9c596cec2189f0e41c6368}\label{class_dados_1_1_instituicao_a3b3e942e4b9c596cec2189f0e41c6368} 
+\index{Dados.Instituicao@{Dados.Instituicao}!CriaMembroINEMInstSimples@{CriaMembroINEMInstSimples}}
+\index{CriaMembroINEMInstSimples@{CriaMembroINEMInstSimples}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{CriaMembroINEMInstSimples()}{CriaMembroINEMInstSimples()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Cria\+Membro\+INEMInst\+Simples (\begin{DoxyParamCaption}\item[{string}]{nome\+Membro,  }\item[{\mbox{\hyperlink{namespace_enums_a872875c0170aff37135e8617ca222023}{Especialidade\+INEM}}}]{especialidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+% FIG 10
+Here is the caller graph for this function\+:
+% FIG 11
+\Hypertarget{class_dados_1_1_instituicao_a9d65237faf8d8c1e131f39094a852357}\label{class_dados_1_1_instituicao_a9d65237faf8d8c1e131f39094a852357} 
+\index{Dados.Instituicao@{Dados.Instituicao}!CriaOcorrenciaInstCompleta@{CriaOcorrenciaInstCompleta}}
+\index{CriaOcorrenciaInstCompleta@{CriaOcorrenciaInstCompleta}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{CriaOcorrenciaInstCompleta()}{CriaOcorrenciaInstCompleta()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Cria\+Ocorrencia\+Inst\+Completa (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Ocorrencia,  }\item[{string}]{localizacao,  }\item[{string}]{descr\+Ocorr,  }\item[{\mbox{\hyperlink{namespace_enums_aa91f43a848f6f03f8e406c84f1740110}{Estado\+Ocorr}}}]{estado,  }\item[{\mbox{\hyperlink{namespace_enums_a9e99ac339a87b8e34f417026af9c3b6f}{Entidade}}}]{entidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que adiciona uma ocorrencia na lista de ocorrencias da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ocorrencia} & Ocorrencia que se pretende adicionar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se adicionou com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 12
+Here is the caller graph for this function\+:
+% FIG 13
+\Hypertarget{class_dados_1_1_instituicao_ae6d85d87191fd9a640bae493e83bd6f6}\label{class_dados_1_1_instituicao_ae6d85d87191fd9a640bae493e83bd6f6} 
+\index{Dados.Instituicao@{Dados.Instituicao}!CriaOcorrenciaInstSimples@{CriaOcorrenciaInstSimples}}
+\index{CriaOcorrenciaInstSimples@{CriaOcorrenciaInstSimples}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{CriaOcorrenciaInstSimples()}{CriaOcorrenciaInstSimples()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Cria\+Ocorrencia\+Inst\+Simples (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Ocorrencia,  }\item[{string}]{localizacao,  }\item[{string}]{descr\+Ocorr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+% FIG 14
+Here is the caller graph for this function\+:
+% FIG 15
+\Hypertarget{class_dados_1_1_instituicao_a0e55dc97c52f0bec7c50b75f429e4cbe}\label{class_dados_1_1_instituicao_a0e55dc97c52f0bec7c50b75f429e4cbe} 
+\index{Dados.Instituicao@{Dados.Instituicao}!ExisteBombeiroInst@{ExisteBombeiroInst}}
+\index{ExisteBombeiroInst@{ExisteBombeiroInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{ExisteBombeiroInst()}{ExisteBombeiroInst()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Existe\+Bombeiro\+Inst (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que verifica se existe ou nao um determinado bombeiro na lista da equipa de bombeiros da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do membro que se pretende verificar se existe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se existe ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 16
+Here is the caller graph for this function\+:
+% FIG 17
+\Hypertarget{class_dados_1_1_instituicao_a9cec9169a02a9a3c12cda778fc2e5797}\label{class_dados_1_1_instituicao_a9cec9169a02a9a3c12cda778fc2e5797} 
+\index{Dados.Instituicao@{Dados.Instituicao}!ExisteEquipamentoInst@{ExisteEquipamentoInst}}
+\index{ExisteEquipamentoInst@{ExisteEquipamentoInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{ExisteEquipamentoInst()}{ExisteEquipamentoInst()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Existe\+Equipamento\+Inst (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que verifica se existe um determinado equipamento na lista de equipamentos da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do equipamento que se pretende verificar se existe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se existe ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 18
+Here is the caller graph for this function\+:
+% FIG 19
+\Hypertarget{class_dados_1_1_instituicao_a52c2b02adc97d778bbca65f82498a727}\label{class_dados_1_1_instituicao_a52c2b02adc97d778bbca65f82498a727} 
+\index{Dados.Instituicao@{Dados.Instituicao}!ExisteMembroINEMInst@{ExisteMembroINEMInst}}
+\index{ExisteMembroINEMInst@{ExisteMembroINEMInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{ExisteMembroINEMInst()}{ExisteMembroINEMInst()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Existe\+Membro\+INEMInst (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que verifica se um determinado membro do INEM existe na lista da equipa de INEM instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do membro que se pretende verificar se existe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se existe ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 20
+Here is the caller graph for this function\+:
+% FIG 21
+\Hypertarget{class_dados_1_1_instituicao_a0e785cac748ed2697eef064f674d89ab}\label{class_dados_1_1_instituicao_a0e785cac748ed2697eef064f674d89ab} 
+\index{Dados.Instituicao@{Dados.Instituicao}!ExisteOcorrenciaInst@{ExisteOcorrenciaInst}}
+\index{ExisteOcorrenciaInst@{ExisteOcorrenciaInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{ExisteOcorrenciaInst()}{ExisteOcorrenciaInst()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Existe\+Ocorrencia\+Inst (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que verifica se existe uma determinada ocorrencia na lista de ocorrencias da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID da ocorrencia que se pretende verificar se existe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se existe ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 22
+Here is the caller graph for this function\+:
+% FIG 23
+\Hypertarget{class_dados_1_1_instituicao_aeccde949f153f099c1bdf4073bda7850}\label{class_dados_1_1_instituicao_aeccde949f153f099c1bdf4073bda7850} 
+\index{Dados.Instituicao@{Dados.Instituicao}!GetBombeiroInst@{GetBombeiroInst}}
+\index{GetBombeiroInst@{GetBombeiroInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{GetBombeiroInst()}{GetBombeiroInst()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o}{Bombeiro\+BO}} Dados.\+Instituicao.\+Get\+Bombeiro\+Inst (\begin{DoxyParamCaption}\item[{int}]{id\+Bombeiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que devolve as informacoes de um bombeiro da equipa de bombeiros da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Bombeiro} & Id do bombeiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Informacoes do bombeiro
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 24
+Here is the caller graph for this function\+:
+% FIG 25
+\Hypertarget{class_dados_1_1_instituicao_a7355bed1de53edf16e70e8f857e725e9}\label{class_dados_1_1_instituicao_a7355bed1de53edf16e70e8f857e725e9} 
+\index{Dados.Instituicao@{Dados.Instituicao}!GetMembroINEMInst@{GetMembroINEMInst}}
+\index{GetMembroINEMInst@{GetMembroINEMInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{GetMembroINEMInst()}{GetMembroINEMInst()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_business_objects_1_1_membro_i_n_e_m_b_o}{Membro\+INEMBO}} Dados.\+Instituicao.\+Get\+Membro\+INEMInst (\begin{DoxyParamCaption}\item[{int}]{id\+Membro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que devolve as informacoes de um membro do INEM da equipa de INEM da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Membro} & Id do membro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Informacoes do Membro\+INEM
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 26
+Here is the caller graph for this function\+:
+% FIG 27
+\Hypertarget{class_dados_1_1_instituicao_a8ddf8f9a135dd92dd98d1b6c387ec8a6}\label{class_dados_1_1_instituicao_a8ddf8f9a135dd92dd98d1b6c387ec8a6} 
+\index{Dados.Instituicao@{Dados.Instituicao}!GuardaInstituicao@{GuardaInstituicao}}
+\index{GuardaInstituicao@{GuardaInstituicao}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{GuardaInstituicao()}{GuardaInstituicao()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Guarda\+Instituicao (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que guarda todos os dados que fazem parte da instituicao num ficheiro binario. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nome do ficheiro onde se pretende guardaros dados\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se guardou com sucesso ou nao
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 28
+\Hypertarget{class_dados_1_1_instituicao_a9c39e1c008ef654ace422097b3058c18}\label{class_dados_1_1_instituicao_a9c39e1c008ef654ace422097b3058c18} 
+\index{Dados.Instituicao@{Dados.Instituicao}!LerInstituicao@{LerInstituicao}}
+\index{LerInstituicao@{LerInstituicao}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{LerInstituicao()}{LerInstituicao()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Ler\+Instituicao (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que le dos dados de uma instituicao de um ficheiro binario. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nome do ficheiro binario de onde pretendemos ler os dados da instituicao\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se leu os dados com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 29
+Here is the caller graph for this function\+:
+% FIG 30
+\Hypertarget{class_dados_1_1_instituicao_a8475f7f0d4657de1b67d99bf09ed7fe6}\label{class_dados_1_1_instituicao_a8475f7f0d4657de1b67d99bf09ed7fe6} 
+\index{Dados.Instituicao@{Dados.Instituicao}!RemoveBombeiroInst@{RemoveBombeiroInst}}
+\index{RemoveBombeiroInst@{RemoveBombeiroInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{RemoveBombeiroInst()}{RemoveBombeiroInst()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Remove\+Bombeiro\+Inst (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que remove um determinado bombeiro na lista da equipa de bombeiros da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do bombeiro que se pretende remover\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se removeu com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 31
+Here is the caller graph for this function\+:
+% FIG 32
+\Hypertarget{class_dados_1_1_instituicao_ab3552544b70c74bf2920f3e2c074f7ee}\label{class_dados_1_1_instituicao_ab3552544b70c74bf2920f3e2c074f7ee} 
+\index{Dados.Instituicao@{Dados.Instituicao}!RemoveEquipamentoInst@{RemoveEquipamentoInst}}
+\index{RemoveEquipamentoInst@{RemoveEquipamentoInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{RemoveEquipamentoInst()}{RemoveEquipamentoInst()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Remove\+Equipamento\+Inst (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que remove um determinado equipamento na lista de equipamentos da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do equipamento que se pretende remover\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se removeu com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 33
+Here is the caller graph for this function\+:
+% FIG 34
+\Hypertarget{class_dados_1_1_instituicao_aa029529070a2da32f07df3bd3ac09ff9}\label{class_dados_1_1_instituicao_aa029529070a2da32f07df3bd3ac09ff9} 
+\index{Dados.Instituicao@{Dados.Instituicao}!RemoveMembroINEMInst@{RemoveMembroINEMInst}}
+\index{RemoveMembroINEMInst@{RemoveMembroINEMInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{RemoveMembroINEMInst()}{RemoveMembroINEMInst()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Remove\+Membro\+INEMInst (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que remove um determinado membro do INEM na lista da equipa de INEM da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do membro que se pretende remover\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se removeu com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 35
+Here is the caller graph for this function\+:
+% FIG 36
+\Hypertarget{class_dados_1_1_instituicao_acd39d4d9b21c5e77e7d3096ff7b1e486}\label{class_dados_1_1_instituicao_acd39d4d9b21c5e77e7d3096ff7b1e486} 
+\index{Dados.Instituicao@{Dados.Instituicao}!RemoveOcorrenciaInst@{RemoveOcorrenciaInst}}
+\index{RemoveOcorrenciaInst@{RemoveOcorrenciaInst}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{RemoveOcorrenciaInst()}{RemoveOcorrenciaInst()}}
+{\footnotesize\ttfamily bool Dados.\+Instituicao.\+Remove\+Ocorrencia\+Inst (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que remove uma determinada ocorrencia na lista de ocorrencias da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID da ocorrencia que se pretende remover\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se removeu com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 37
+Here is the caller graph for this function\+:
+% FIG 38
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{class_dados_1_1_instituicao_a9a6611dfae0f825fbb2dd263072a8de1}\label{class_dados_1_1_instituicao_a9a6611dfae0f825fbb2dd263072a8de1} 
+\index{Dados.Instituicao@{Dados.Instituicao}!equipaBombeiros@{equipaBombeiros}}
+\index{equipaBombeiros@{equipaBombeiros}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{equipaBombeiros}{equipaBombeiros}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dados_1_1_equipa_bombeiros}{Equipa\+Bombeiros}} Dados.\+Instituicao.\+equipa\+Bombeiros\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_dados_1_1_instituicao_aaffb409a8b0a7a411c6a0682af2c738f}\label{class_dados_1_1_instituicao_aaffb409a8b0a7a411c6a0682af2c738f} 
+\index{Dados.Instituicao@{Dados.Instituicao}!equipaINEM@{equipaINEM}}
+\index{equipaINEM@{equipaINEM}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{equipaINEM}{equipaINEM}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m}{Equipa\+INEM}} Dados.\+Instituicao.\+equipa\+INEM\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_dados_1_1_instituicao_a76ca4b04b44ebc3f4b2b279f25881549}\label{class_dados_1_1_instituicao_a76ca4b04b44ebc3f4b2b279f25881549} 
+\index{Dados.Instituicao@{Dados.Instituicao}!equipamentos@{equipamentos}}
+\index{equipamentos@{equipamentos}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{equipamentos}{equipamentos}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dados_1_1_equipamentos}{Equipamentos}} Dados.\+Instituicao.\+equipamentos\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_dados_1_1_instituicao_a8ece97b1ced4185e7fbadaaefc3526b3}\label{class_dados_1_1_instituicao_a8ece97b1ced4185e7fbadaaefc3526b3} 
+\index{Dados.Instituicao@{Dados.Instituicao}!nome@{nome}}
+\index{nome@{nome}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{nome}{nome}}
+{\footnotesize\ttfamily string Dados.\+Instituicao.\+nome\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_dados_1_1_instituicao_a6e20e1170e1c1e2db7d0cb619a98f4dc}\label{class_dados_1_1_instituicao_a6e20e1170e1c1e2db7d0cb619a98f4dc} 
+\index{Dados.Instituicao@{Dados.Instituicao}!ocorrencias@{ocorrencias}}
+\index{ocorrencias@{ocorrencias}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{ocorrencias}{ocorrencias}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dados_1_1_ocorrencias}{Ocorrencias}} Dados.\+Instituicao.\+ocorrencias\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_dados_1_1_instituicao_ac8c4b1185f47e0df780f7c14d48de4de}\label{class_dados_1_1_instituicao_ac8c4b1185f47e0df780f7c14d48de4de} 
+\index{Dados.Instituicao@{Dados.Instituicao}!EquipaBombeiros@{EquipaBombeiros}}
+\index{EquipaBombeiros@{EquipaBombeiros}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{EquipaBombeiros}{EquipaBombeiros}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dados_1_1_equipa_bombeiros}{Equipa\+Bombeiros}} Dados.\+Instituicao.\+Equipa\+Bombeiros\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Get ou set da equipa de bombeiros da instituicao. 
+
+\Hypertarget{class_dados_1_1_instituicao_ac35f237d5974ea96b54e27c781a49dd5}\label{class_dados_1_1_instituicao_ac35f237d5974ea96b54e27c781a49dd5} 
+\index{Dados.Instituicao@{Dados.Instituicao}!EquipaINEM@{EquipaINEM}}
+\index{EquipaINEM@{EquipaINEM}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{EquipaINEM}{EquipaINEM}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dados_1_1_equipa_i_n_e_m}{Equipa\+INEM}} Dados.\+Instituicao.\+Equipa\+INEM\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Get ou set da equipa de INEM da instituicao. 
+
+\Hypertarget{class_dados_1_1_instituicao_a6f1eed84bfe976ef168aa96d3d6b86dd}\label{class_dados_1_1_instituicao_a6f1eed84bfe976ef168aa96d3d6b86dd} 
+\index{Dados.Instituicao@{Dados.Instituicao}!Equipamentos@{Equipamentos}}
+\index{Equipamentos@{Equipamentos}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{Equipamentos}{Equipamentos}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dados_1_1_equipamentos}{Equipamentos}} Dados.\+Instituicao.\+Equipamentos\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Get ou set da lista de equipamentos da instituicao. 
+
+\Hypertarget{class_dados_1_1_instituicao_a49a98c7eaacd3b7a1361c53074074a94}\label{class_dados_1_1_instituicao_a49a98c7eaacd3b7a1361c53074074a94} 
+\index{Dados.Instituicao@{Dados.Instituicao}!Nome@{Nome}}
+\index{Nome@{Nome}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{Nome}{Nome}}
+{\footnotesize\ttfamily string Dados.\+Instituicao.\+Nome\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Get ou set do nome da instituicao. 
+
+\Hypertarget{class_dados_1_1_instituicao_aa0177ccae7346c28ec0a4b2e9b46d51c}\label{class_dados_1_1_instituicao_aa0177ccae7346c28ec0a4b2e9b46d51c} 
+\index{Dados.Instituicao@{Dados.Instituicao}!Ocorrencias@{Ocorrencias}}
+\index{Ocorrencias@{Ocorrencias}!Dados.Instituicao@{Dados.Instituicao}}
+\doxysubsubsection{\texorpdfstring{Ocorrencias}{Ocorrencias}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dados_1_1_ocorrencias}{Ocorrencias}} Dados.\+Instituicao.\+Ocorrencias\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Get ou set da lista de ocorrencias da instituicao. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Dados/\mbox{\hyperlink{_instituicao_8cs}{Instituicao.\+cs}}\end{DoxyCompactItemize}

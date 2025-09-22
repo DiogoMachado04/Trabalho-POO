@@ -1,0 +1,319 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Namespace List}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Data Structure Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Data Structures}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Business\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Objects Namespace Reference}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Dados Namespace Reference}{9}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Enums Namespace Reference}{10}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Enumeration Type Documentation}{10}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}Entidade}{10}{subsubsection.5.3.1.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.2}Erro}{11}{subsubsection.5.3.1.2}%
+\contentsline {subsubsection}{\numberline {5.3.1.3}EspecialidadeINEM}{11}{subsubsection.5.3.1.3}%
+\contentsline {subsubsection}{\numberline {5.3.1.4}EstadoEquip}{11}{subsubsection.5.3.1.4}%
+\contentsline {subsubsection}{\numberline {5.3.1.5}EstadoOcorr}{11}{subsubsection.5.3.1.5}%
+\contentsline {subsubsection}{\numberline {5.3.1.6}PatenteBombeiro}{12}{subsubsection.5.3.1.6}%
+\contentsline {section}{\numberline {5.4}Exceptions Namespace Reference}{12}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Regras Namespace Reference}{12}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Testes Namespace Reference}{12}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Trabalho\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}POO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}26042 Namespace Reference}{12}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Validacoes Namespace Reference}{12}{section.5.8}%
+\contentsline {chapter}{\numberline {6}Data Structure Documentation}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bombeiro Class Reference}{13}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{14}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Constructor \& Destructor Documentation}{14}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}Bombeiro()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{14}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}Bombeiro()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{14}{subsubsection.6.1.2.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.3}Bombeiro()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{15}{subsubsection.6.1.2.3}%
+\contentsline {subsubsection}{\numberline {6.1.2.4}Bombeiro()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{15}{subsubsection.6.1.2.4}%
+\contentsline {subsubsection}{\numberline {6.1.2.5}$\sim $Bombeiro()}{15}{subsubsection.6.1.2.5}%
+\contentsline {subsection}{\numberline {6.1.3}Member Function Documentation}{15}{subsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.3.1}ToString()}{15}{subsubsection.6.1.3.1}%
+\contentsline {subsection}{\numberline {6.1.4}Field Documentation}{16}{subsection.6.1.4}%
+\contentsline {subsubsection}{\numberline {6.1.4.1}patente}{16}{subsubsection.6.1.4.1}%
+\contentsline {subsection}{\numberline {6.1.5}Property Documentation}{16}{subsection.6.1.5}%
+\contentsline {subsubsection}{\numberline {6.1.5.1}Patente}{16}{subsubsection.6.1.5.1}%
+\contentsline {section}{\numberline {6.2}Business\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Objects.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bombeiro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}BO Class Reference}{16}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Equipa\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bombeiros Class Reference}{16}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{17}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Constructor \& Destructor Documentation}{17}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}EquipaBombeiros()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{17}{subsubsection.6.3.2.1}%
+\contentsline {subsubsection}{\numberline {6.3.2.2}EquipaBombeiros()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{17}{subsubsection.6.3.2.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.3}$\sim $EquipaBombeiros()}{17}{subsubsection.6.3.2.3}%
+\contentsline {subsection}{\numberline {6.3.3}Member Function Documentation}{18}{subsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.1}Adiciona()}{18}{subsubsection.6.3.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.3.2}Existe()}{18}{subsubsection.6.3.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3.3}GetBombeiro()}{18}{subsubsection.6.3.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.4}Remove()}{19}{subsubsection.6.3.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.3.5}ToString()}{19}{subsubsection.6.3.3.5}%
+\contentsline {subsection}{\numberline {6.3.4}Field Documentation}{19}{subsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.4.1}equipa}{19}{subsubsection.6.3.4.1}%
+\contentsline {subsubsection}{\numberline {6.3.4.2}nome}{19}{subsubsection.6.3.4.2}%
+\contentsline {subsection}{\numberline {6.3.5}Property Documentation}{20}{subsection.6.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.5.1}Nome}{20}{subsubsection.6.3.5.1}%
+\contentsline {section}{\numberline {6.4}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Equipa\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}INEM Class Reference}{20}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{21}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Constructor \& Destructor Documentation}{21}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}EquipaINEM()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{21}{subsubsection.6.4.2.1}%
+\contentsline {subsubsection}{\numberline {6.4.2.2}EquipaINEM()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{21}{subsubsection.6.4.2.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.3}$\sim $EquipaINEM()}{21}{subsubsection.6.4.2.3}%
+\contentsline {subsection}{\numberline {6.4.3}Member Function Documentation}{21}{subsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.1}Adiciona()}{21}{subsubsection.6.4.3.1}%
+\contentsline {subsubsection}{\numberline {6.4.3.2}Existe()}{22}{subsubsection.6.4.3.2}%
+\contentsline {subsubsection}{\numberline {6.4.3.3}GetMembro()}{22}{subsubsection.6.4.3.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.4}Remove()}{22}{subsubsection.6.4.3.4}%
+\contentsline {subsubsection}{\numberline {6.4.3.5}ToString()}{24}{subsubsection.6.4.3.5}%
+\contentsline {subsection}{\numberline {6.4.4}Field Documentation}{24}{subsection.6.4.4}%
+\contentsline {subsubsection}{\numberline {6.4.4.1}equipa}{24}{subsubsection.6.4.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.4.2}nome}{24}{subsubsection.6.4.4.2}%
+\contentsline {subsection}{\numberline {6.4.5}Property Documentation}{24}{subsection.6.4.5}%
+\contentsline {subsubsection}{\numberline {6.4.5.1}Nome}{24}{subsubsection.6.4.5.1}%
+\contentsline {section}{\numberline {6.5}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Equipamento Class Reference}{25}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{25}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Constructor \& Destructor Documentation}{26}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}Equipamento()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{26}{subsubsection.6.5.2.1}%
+\contentsline {subsubsection}{\numberline {6.5.2.2}Equipamento()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{26}{subsubsection.6.5.2.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.3}$\sim $Equipamento()}{26}{subsubsection.6.5.2.3}%
+\contentsline {subsection}{\numberline {6.5.3}Member Function Documentation}{26}{subsection.6.5.3}%
+\contentsline {subsubsection}{\numberline {6.5.3.1}ToString()}{26}{subsubsection.6.5.3.1}%
+\contentsline {subsection}{\numberline {6.5.4}Field Documentation}{26}{subsection.6.5.4}%
+\contentsline {subsubsection}{\numberline {6.5.4.1}entidade}{26}{subsubsection.6.5.4.1}%
+\contentsline {subsubsection}{\numberline {6.5.4.2}estado}{27}{subsubsection.6.5.4.2}%
+\contentsline {subsubsection}{\numberline {6.5.4.3}id}{27}{subsubsection.6.5.4.3}%
+\contentsline {subsubsection}{\numberline {6.5.4.4}idCounter}{27}{subsubsection.6.5.4.4}%
+\contentsline {subsubsection}{\numberline {6.5.4.5}nome}{27}{subsubsection.6.5.4.5}%
+\contentsline {subsection}{\numberline {6.5.5}Property Documentation}{27}{subsection.6.5.5}%
+\contentsline {subsubsection}{\numberline {6.5.5.1}Entidade}{27}{subsubsection.6.5.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.5.2}Estado}{27}{subsubsection.6.5.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.5.3}Id}{27}{subsubsection.6.5.5.3}%
+\contentsline {subsubsection}{\numberline {6.5.5.4}Nome}{27}{subsubsection.6.5.5.4}%
+\contentsline {section}{\numberline {6.6}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Equipamentos Class Reference}{28}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{28}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Constructor \& Destructor Documentation}{28}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}Equipamentos()}{28}{subsubsection.6.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.6.2.2}$\sim $Equipamentos()}{29}{subsubsection.6.6.2.2}%
+\contentsline {subsection}{\numberline {6.6.3}Member Function Documentation}{29}{subsection.6.6.3}%
+\contentsline {subsubsection}{\numberline {6.6.3.1}Adiciona()}{29}{subsubsection.6.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.6.3.2}Existe()}{30}{subsubsection.6.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.6.3.3}Remove()}{30}{subsubsection.6.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.6.3.4}ToString()}{30}{subsubsection.6.6.3.4}%
+\contentsline {subsection}{\numberline {6.6.4}Field Documentation}{31}{subsection.6.6.4}%
+\contentsline {subsubsection}{\numberline {6.6.4.1}equipamentos}{31}{subsubsection.6.6.4.1}%
+\contentsline {section}{\numberline {6.7}Regras.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instituicao Class Reference}{31}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{32}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Constructor \& Destructor Documentation}{32}{subsection.6.7.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.1}GereInstituicao()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{32}{subsubsection.6.7.2.1}%
+\contentsline {subsubsection}{\numberline {6.7.2.2}GereInstituicao()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{32}{subsubsection.6.7.2.2}%
+\contentsline {subsection}{\numberline {6.7.3}Member Function Documentation}{33}{subsection.6.7.3}%
+\contentsline {subsubsection}{\numberline {6.7.3.1}CriaBombeiroCompleto()}{33}{subsubsection.6.7.3.1}%
+\contentsline {subsubsection}{\numberline {6.7.3.2}CriaBombeiroSimples()}{33}{subsubsection.6.7.3.2}%
+\contentsline {subsubsection}{\numberline {6.7.3.3}CriaEquipamento()}{33}{subsubsection.6.7.3.3}%
+\contentsline {subsubsection}{\numberline {6.7.3.4}CriaMembroINEMCompleto()}{34}{subsubsection.6.7.3.4}%
+\contentsline {subsubsection}{\numberline {6.7.3.5}CriaMembroINEMSimples()}{34}{subsubsection.6.7.3.5}%
+\contentsline {subsubsection}{\numberline {6.7.3.6}CriaOcorrenciaCompleta()}{35}{subsubsection.6.7.3.6}%
+\contentsline {subsubsection}{\numberline {6.7.3.7}CriaOcorrenciaSimples()}{35}{subsubsection.6.7.3.7}%
+\contentsline {subsubsection}{\numberline {6.7.3.8}ExisteBombeiro()}{36}{subsubsection.6.7.3.8}%
+\contentsline {subsubsection}{\numberline {6.7.3.9}ExisteEquipamento()}{36}{subsubsection.6.7.3.9}%
+\contentsline {subsubsection}{\numberline {6.7.3.10}ExisteMembroINEM()}{36}{subsubsection.6.7.3.10}%
+\contentsline {subsubsection}{\numberline {6.7.3.11}ExisteOcorrencia()}{37}{subsubsection.6.7.3.11}%
+\contentsline {subsubsection}{\numberline {6.7.3.12}GetBombeiro()}{37}{subsubsection.6.7.3.12}%
+\contentsline {subsubsection}{\numberline {6.7.3.13}GetMembroINEM()}{37}{subsubsection.6.7.3.13}%
+\contentsline {subsubsection}{\numberline {6.7.3.14}GravaInstituicao()}{38}{subsubsection.6.7.3.14}%
+\contentsline {subsubsection}{\numberline {6.7.3.15}RemoveBombeiro()}{38}{subsubsection.6.7.3.15}%
+\contentsline {subsubsection}{\numberline {6.7.3.16}RemoveEquipamento()}{38}{subsubsection.6.7.3.16}%
+\contentsline {subsubsection}{\numberline {6.7.3.17}RemoveMembroINEM()}{39}{subsubsection.6.7.3.17}%
+\contentsline {subsubsection}{\numberline {6.7.3.18}RemoveOcorrencia()}{39}{subsubsection.6.7.3.18}%
+\contentsline {subsection}{\numberline {6.7.4}Field Documentation}{39}{subsection.6.7.4}%
+\contentsline {subsubsection}{\numberline {6.7.4.1}instituicao}{39}{subsubsection.6.7.4.1}%
+\contentsline {section}{\numberline {6.8}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instituicao Class Reference}{40}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{41}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Constructor \& Destructor Documentation}{41}{subsection.6.8.2}%
+\contentsline {subsubsection}{\numberline {6.8.2.1}Instituicao()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{41}{subsubsection.6.8.2.1}%
+\contentsline {subsubsection}{\numberline {6.8.2.2}Instituicao()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{42}{subsubsection.6.8.2.2}%
+\contentsline {subsubsection}{\numberline {6.8.2.3}$\sim $Instituicao()}{42}{subsubsection.6.8.2.3}%
+\contentsline {subsection}{\numberline {6.8.3}Member Function Documentation}{42}{subsection.6.8.3}%
+\contentsline {subsubsection}{\numberline {6.8.3.1}CriaBombeiroInstCompleto()}{42}{subsubsection.6.8.3.1}%
+\contentsline {subsubsection}{\numberline {6.8.3.2}CriaBombeiroInstSimples()}{43}{subsubsection.6.8.3.2}%
+\contentsline {subsubsection}{\numberline {6.8.3.3}CriaEquipamentoInst()}{43}{subsubsection.6.8.3.3}%
+\contentsline {subsubsection}{\numberline {6.8.3.4}CriaMembroINEMInstCompleto()}{43}{subsubsection.6.8.3.4}%
+\contentsline {subsubsection}{\numberline {6.8.3.5}CriaMembroINEMInstSimples()}{44}{subsubsection.6.8.3.5}%
+\contentsline {subsubsection}{\numberline {6.8.3.6}CriaOcorrenciaInstCompleta()}{44}{subsubsection.6.8.3.6}%
+\contentsline {subsubsection}{\numberline {6.8.3.7}CriaOcorrenciaInstSimples()}{44}{subsubsection.6.8.3.7}%
+\contentsline {subsubsection}{\numberline {6.8.3.8}ExisteBombeiroInst()}{44}{subsubsection.6.8.3.8}%
+\contentsline {subsubsection}{\numberline {6.8.3.9}ExisteEquipamentoInst()}{45}{subsubsection.6.8.3.9}%
+\contentsline {subsubsection}{\numberline {6.8.3.10}ExisteMembroINEMInst()}{45}{subsubsection.6.8.3.10}%
+\contentsline {subsubsection}{\numberline {6.8.3.11}ExisteOcorrenciaInst()}{45}{subsubsection.6.8.3.11}%
+\contentsline {subsubsection}{\numberline {6.8.3.12}GetBombeiroInst()}{46}{subsubsection.6.8.3.12}%
+\contentsline {subsubsection}{\numberline {6.8.3.13}GetMembroINEMInst()}{46}{subsubsection.6.8.3.13}%
+\contentsline {subsubsection}{\numberline {6.8.3.14}GuardaInstituicao()}{46}{subsubsection.6.8.3.14}%
+\contentsline {subsubsection}{\numberline {6.8.3.15}LerInstituicao()}{48}{subsubsection.6.8.3.15}%
+\contentsline {subsubsection}{\numberline {6.8.3.16}RemoveBombeiroInst()}{48}{subsubsection.6.8.3.16}%
+\contentsline {subsubsection}{\numberline {6.8.3.17}RemoveEquipamentoInst()}{48}{subsubsection.6.8.3.17}%
+\contentsline {subsubsection}{\numberline {6.8.3.18}RemoveMembroINEMInst()}{50}{subsubsection.6.8.3.18}%
+\contentsline {subsubsection}{\numberline {6.8.3.19}RemoveOcorrenciaInst()}{50}{subsubsection.6.8.3.19}%
+\contentsline {subsection}{\numberline {6.8.4}Field Documentation}{50}{subsection.6.8.4}%
+\contentsline {subsubsection}{\numberline {6.8.4.1}equipaBombeiros}{50}{subsubsection.6.8.4.1}%
+\contentsline {subsubsection}{\numberline {6.8.4.2}equipaINEM}{51}{subsubsection.6.8.4.2}%
+\contentsline {subsubsection}{\numberline {6.8.4.3}equipamentos}{51}{subsubsection.6.8.4.3}%
+\contentsline {subsubsection}{\numberline {6.8.4.4}nome}{51}{subsubsection.6.8.4.4}%
+\contentsline {subsubsection}{\numberline {6.8.4.5}ocorrencias}{51}{subsubsection.6.8.4.5}%
+\contentsline {subsection}{\numberline {6.8.5}Property Documentation}{51}{subsection.6.8.5}%
+\contentsline {subsubsection}{\numberline {6.8.5.1}EquipaBombeiros}{51}{subsubsection.6.8.5.1}%
+\contentsline {subsubsection}{\numberline {6.8.5.2}EquipaINEM}{51}{subsubsection.6.8.5.2}%
+\contentsline {subsubsection}{\numberline {6.8.5.3}Equipamentos}{51}{subsubsection.6.8.5.3}%
+\contentsline {subsubsection}{\numberline {6.8.5.4}Nome}{51}{subsubsection.6.8.5.4}%
+\contentsline {subsubsection}{\numberline {6.8.5.5}Ocorrencias}{52}{subsubsection.6.8.5.5}%
+\contentsline {section}{\numberline {6.9}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Membro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}INEM Class Reference}{52}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{53}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Constructor \& Destructor Documentation}{53}{subsection.6.9.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.1}MembroINEM()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{53}{subsubsection.6.9.2.1}%
+\contentsline {subsubsection}{\numberline {6.9.2.2}MembroINEM()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{53}{subsubsection.6.9.2.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.3}MembroINEM()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{54}{subsubsection.6.9.2.3}%
+\contentsline {subsubsection}{\numberline {6.9.2.4}MembroINEM()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{54}{subsubsection.6.9.2.4}%
+\contentsline {subsubsection}{\numberline {6.9.2.5}$\sim $MembroINEM()}{54}{subsubsection.6.9.2.5}%
+\contentsline {subsection}{\numberline {6.9.3}Member Function Documentation}{54}{subsection.6.9.3}%
+\contentsline {subsubsection}{\numberline {6.9.3.1}ToString()}{54}{subsubsection.6.9.3.1}%
+\contentsline {subsection}{\numberline {6.9.4}Field Documentation}{54}{subsection.6.9.4}%
+\contentsline {subsubsection}{\numberline {6.9.4.1}especialidade}{54}{subsubsection.6.9.4.1}%
+\contentsline {subsection}{\numberline {6.9.5}Property Documentation}{55}{subsection.6.9.5}%
+\contentsline {subsubsection}{\numberline {6.9.5.1}Especialidade}{55}{subsubsection.6.9.5.1}%
+\contentsline {section}{\numberline {6.10}Business\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Objects.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Membro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}INEMBO Class Reference}{55}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{56}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Constructor \& Destructor Documentation}{56}{subsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.1}MembroINEMBO()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{56}{subsubsection.6.10.2.1}%
+\contentsline {subsubsection}{\numberline {6.10.2.2}MembroINEMBO()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{56}{subsubsection.6.10.2.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.3}$\sim $MembroINEMBO()}{56}{subsubsection.6.10.2.3}%
+\contentsline {subsection}{\numberline {6.10.3}Field Documentation}{56}{subsection.6.10.3}%
+\contentsline {subsubsection}{\numberline {6.10.3.1}especialidade}{56}{subsubsection.6.10.3.1}%
+\contentsline {subsection}{\numberline {6.10.4}Property Documentation}{57}{subsection.6.10.4}%
+\contentsline {subsubsection}{\numberline {6.10.4.1}Especialidade}{57}{subsubsection.6.10.4.1}%
+\contentsline {section}{\numberline {6.11}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ocorrencia Class Reference}{57}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{58}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Constructor \& Destructor Documentation}{58}{subsection.6.11.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.1}Ocorrencia()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{58}{subsubsection.6.11.2.1}%
+\contentsline {subsubsection}{\numberline {6.11.2.2}Ocorrencia()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{58}{subsubsection.6.11.2.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.3}Ocorrencia()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{59}{subsubsection.6.11.2.3}%
+\contentsline {subsubsection}{\numberline {6.11.2.4}$\sim $Ocorrencia()}{59}{subsubsection.6.11.2.4}%
+\contentsline {subsection}{\numberline {6.11.3}Member Function Documentation}{59}{subsection.6.11.3}%
+\contentsline {subsubsection}{\numberline {6.11.3.1}ToString()}{59}{subsubsection.6.11.3.1}%
+\contentsline {subsection}{\numberline {6.11.4}Field Documentation}{59}{subsection.6.11.4}%
+\contentsline {subsubsection}{\numberline {6.11.4.1}dataOcorrencia}{59}{subsubsection.6.11.4.1}%
+\contentsline {subsubsection}{\numberline {6.11.4.2}descrOcorr}{59}{subsubsection.6.11.4.2}%
+\contentsline {subsubsection}{\numberline {6.11.4.3}entidade}{59}{subsubsection.6.11.4.3}%
+\contentsline {subsubsection}{\numberline {6.11.4.4}estado}{59}{subsubsection.6.11.4.4}%
+\contentsline {subsubsection}{\numberline {6.11.4.5}id}{60}{subsubsection.6.11.4.5}%
+\contentsline {subsubsection}{\numberline {6.11.4.6}idCounter}{60}{subsubsection.6.11.4.6}%
+\contentsline {subsubsection}{\numberline {6.11.4.7}localizacao}{60}{subsubsection.6.11.4.7}%
+\contentsline {subsection}{\numberline {6.11.5}Property Documentation}{60}{subsection.6.11.5}%
+\contentsline {subsubsection}{\numberline {6.11.5.1}DataOcorrencia}{60}{subsubsection.6.11.5.1}%
+\contentsline {subsubsection}{\numberline {6.11.5.2}DescrOcorr}{60}{subsubsection.6.11.5.2}%
+\contentsline {subsubsection}{\numberline {6.11.5.3}Entidade}{60}{subsubsection.6.11.5.3}%
+\contentsline {subsubsection}{\numberline {6.11.5.4}Estado}{60}{subsubsection.6.11.5.4}%
+\contentsline {subsubsection}{\numberline {6.11.5.5}Id}{60}{subsubsection.6.11.5.5}%
+\contentsline {subsubsection}{\numberline {6.11.5.6}Localizacao}{61}{subsubsection.6.11.5.6}%
+\contentsline {section}{\numberline {6.12}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ocorrencias Class Reference}{61}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{61}{subsection.6.12.1}%
+\contentsline {subsection}{\numberline {6.12.2}Constructor \& Destructor Documentation}{62}{subsection.6.12.2}%
+\contentsline {subsubsection}{\numberline {6.12.2.1}Ocorrencias()}{62}{subsubsection.6.12.2.1}%
+\contentsline {subsubsection}{\numberline {6.12.2.2}$\sim $Ocorrencias()}{62}{subsubsection.6.12.2.2}%
+\contentsline {subsection}{\numberline {6.12.3}Member Function Documentation}{62}{subsection.6.12.3}%
+\contentsline {subsubsection}{\numberline {6.12.3.1}Adiciona()}{62}{subsubsection.6.12.3.1}%
+\contentsline {subsubsection}{\numberline {6.12.3.2}Existe()}{62}{subsubsection.6.12.3.2}%
+\contentsline {subsubsection}{\numberline {6.12.3.3}Remove()}{63}{subsubsection.6.12.3.3}%
+\contentsline {subsubsection}{\numberline {6.12.3.4}ToString()}{63}{subsubsection.6.12.3.4}%
+\contentsline {subsection}{\numberline {6.12.4}Field Documentation}{63}{subsection.6.12.4}%
+\contentsline {subsubsection}{\numberline {6.12.4.1}ocorrencias}{63}{subsubsection.6.12.4.1}%
+\contentsline {section}{\numberline {6.13}Dados.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pessoa Class Reference}{63}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Detailed Description}{64}{subsection.6.13.1}%
+\contentsline {subsection}{\numberline {6.13.2}Constructor \& Destructor Documentation}{64}{subsection.6.13.2}%
+\contentsline {subsubsection}{\numberline {6.13.2.1}Pessoa()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{64}{subsubsection.6.13.2.1}%
+\contentsline {subsubsection}{\numberline {6.13.2.2}Pessoa()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{65}{subsubsection.6.13.2.2}%
+\contentsline {subsubsection}{\numberline {6.13.2.3}Pessoa()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{65}{subsubsection.6.13.2.3}%
+\contentsline {subsubsection}{\numberline {6.13.2.4}$\sim $Pessoa()}{65}{subsubsection.6.13.2.4}%
+\contentsline {subsection}{\numberline {6.13.3}Member Function Documentation}{65}{subsection.6.13.3}%
+\contentsline {subsubsection}{\numberline {6.13.3.1}ToString()}{65}{subsubsection.6.13.3.1}%
+\contentsline {subsection}{\numberline {6.13.4}Field Documentation}{65}{subsection.6.13.4}%
+\contentsline {subsubsection}{\numberline {6.13.4.1}contacto}{65}{subsubsection.6.13.4.1}%
+\contentsline {subsubsection}{\numberline {6.13.4.2}email}{66}{subsubsection.6.13.4.2}%
+\contentsline {subsubsection}{\numberline {6.13.4.3}id}{66}{subsubsection.6.13.4.3}%
+\contentsline {subsubsection}{\numberline {6.13.4.4}idCounter}{66}{subsubsection.6.13.4.4}%
+\contentsline {subsubsection}{\numberline {6.13.4.5}nome}{66}{subsubsection.6.13.4.5}%
+\contentsline {subsection}{\numberline {6.13.5}Property Documentation}{66}{subsection.6.13.5}%
+\contentsline {subsubsection}{\numberline {6.13.5.1}Contacto}{66}{subsubsection.6.13.5.1}%
+\contentsline {subsubsection}{\numberline {6.13.5.2}Email}{66}{subsubsection.6.13.5.2}%
+\contentsline {subsubsection}{\numberline {6.13.5.3}Id}{66}{subsubsection.6.13.5.3}%
+\contentsline {subsubsection}{\numberline {6.13.5.4}Nome}{66}{subsubsection.6.13.5.4}%
+\contentsline {section}{\numberline {6.14}Business\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Objects.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pessoa\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}BO Class Reference}{67}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}Detailed Description}{67}{subsection.6.14.1}%
+\contentsline {subsection}{\numberline {6.14.2}Constructor \& Destructor Documentation}{67}{subsection.6.14.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.1}PessoaBO()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{67}{subsubsection.6.14.2.1}%
+\contentsline {subsubsection}{\numberline {6.14.2.2}PessoaBO()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{67}{subsubsection.6.14.2.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.3}$\sim $PessoaBO()}{68}{subsubsection.6.14.2.3}%
+\contentsline {subsection}{\numberline {6.14.3}Field Documentation}{68}{subsection.6.14.3}%
+\contentsline {subsubsection}{\numberline {6.14.3.1}id}{68}{subsubsection.6.14.3.1}%
+\contentsline {subsubsection}{\numberline {6.14.3.2}nome}{68}{subsubsection.6.14.3.2}%
+\contentsline {subsection}{\numberline {6.14.4}Property Documentation}{68}{subsection.6.14.4}%
+\contentsline {subsubsection}{\numberline {6.14.4.1}Id}{68}{subsubsection.6.14.4.1}%
+\contentsline {subsubsection}{\numberline {6.14.4.2}Nome}{68}{subsubsection.6.14.4.2}%
+\contentsline {section}{\numberline {6.15}Testes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Testes Class Reference}{68}{section.6.15}%
+\contentsline {subsection}{\numberline {6.15.1}Detailed Description}{69}{subsection.6.15.1}%
+\contentsline {subsection}{\numberline {6.15.2}Member Function Documentation}{69}{subsection.6.15.2}%
+\contentsline {subsubsection}{\numberline {6.15.2.1}Constructor\_ParametrosInvalidos\_EsperaExcecaoContactoInvalido()}{69}{subsubsection.6.15.2.1}%
+\contentsline {subsubsection}{\numberline {6.15.2.2}Constructor\_ParametrosValidos\_Bombeiro()}{69}{subsubsection.6.15.2.2}%
+\contentsline {section}{\numberline {6.16}Validacoes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Validar Class Reference}{69}{section.6.16}%
+\contentsline {subsection}{\numberline {6.16.1}Detailed Description}{70}{subsection.6.16.1}%
+\contentsline {subsection}{\numberline {6.16.2}Member Function Documentation}{70}{subsection.6.16.2}%
+\contentsline {subsubsection}{\numberline {6.16.2.1}VerificaContacto()}{70}{subsubsection.6.16.2.1}%
+\contentsline {subsubsection}{\numberline {6.16.2.2}VerificaEmail()}{70}{subsubsection.6.16.2.2}%
+\contentsline {section}{\numberline {6.17}Exceptions.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Validation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception Class Reference}{70}{section.6.17}%
+\contentsline {subsection}{\numberline {6.17.1}Detailed Description}{71}{subsection.6.17.1}%
+\contentsline {subsection}{\numberline {6.17.2}Constructor \& Destructor Documentation}{71}{subsection.6.17.2}%
+\contentsline {subsubsection}{\numberline {6.17.2.1}ValidationException()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{71}{subsubsection.6.17.2.1}%
+\contentsline {subsubsection}{\numberline {6.17.2.2}ValidationException()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{71}{subsubsection.6.17.2.2}%
+\contentsline {subsection}{\numberline {6.17.3}Property Documentation}{71}{subsection.6.17.3}%
+\contentsline {subsubsection}{\numberline {6.17.3.1}erro}{71}{subsubsection.6.17.3.1}%
+\contentsline {chapter}{\numberline {7}File Documentation}{73}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Business\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Objects/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bombeiro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}BO.cs File Reference}{73}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Business\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Objects/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Membro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}INEMBO.cs File Reference}{73}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Business\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Objects/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{74}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Dados/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{74}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Enums/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{74}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Exceptions/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{74}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Regras/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{74}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Trabalho\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}POO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}26042/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{74}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Validacoes/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/.NETFramework,Version=v4.7.2.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{74}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Business\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Objects/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pessoa\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}BO.cs File Reference}{74}{section.7.10}%
+\contentsline {section}{\numberline {7.11}Business\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Objects/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{75}{section.7.11}%
+\contentsline {section}{\numberline {7.12}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{75}{section.7.12}%
+\contentsline {section}{\numberline {7.13}Enums/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{75}{section.7.13}%
+\contentsline {section}{\numberline {7.14}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{75}{section.7.14}%
+\contentsline {section}{\numberline {7.15}Regras/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{75}{section.7.15}%
+\contentsline {section}{\numberline {7.16}Trabalho\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}POO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}26042/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{75}{section.7.16}%
+\contentsline {section}{\numberline {7.17}Validacoes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Properties/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.cs File Reference}{75}{section.7.17}%
+\contentsline {section}{\numberline {7.18}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bombeiro.cs File Reference}{75}{section.7.18}%
+\contentsline {section}{\numberline {7.19}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Equipa\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bombeiros.cs File Reference}{75}{section.7.19}%
+\contentsline {section}{\numberline {7.20}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Equipa\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}INEM.cs File Reference}{76}{section.7.20}%
+\contentsline {section}{\numberline {7.21}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Equipamento.cs File Reference}{76}{section.7.21}%
+\contentsline {section}{\numberline {7.22}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Equipamentos.cs File Reference}{76}{section.7.22}%
+\contentsline {section}{\numberline {7.23}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IMetodos.cs File Reference}{76}{section.7.23}%
+\contentsline {section}{\numberline {7.24}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instituicao.cs File Reference}{77}{section.7.24}%
+\contentsline {section}{\numberline {7.25}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Membro\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}INEM.cs File Reference}{77}{section.7.25}%
+\contentsline {section}{\numberline {7.26}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ocorrencia.cs File Reference}{77}{section.7.26}%
+\contentsline {section}{\numberline {7.27}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ocorrencias.cs File Reference}{77}{section.7.27}%
+\contentsline {section}{\numberline {7.28}Dados/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pessoa.cs File Reference}{78}{section.7.28}%
+\contentsline {section}{\numberline {7.29}Enums/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enumerados.cs File Reference}{78}{section.7.29}%
+\contentsline {section}{\numberline {7.30}Exceptions/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Validation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception.cs File Reference}{78}{section.7.30}%
+\contentsline {section}{\numberline {7.31}Regras/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Instituicao.cs File Reference}{79}{section.7.31}%
+\contentsline {section}{\numberline {7.32}Testes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MSTest\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings.cs File Reference}{79}{section.7.32}%
+\contentsline {section}{\numberline {7.33}Testes/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net8.0/.NETCore\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App,Version=v8.0.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Attributes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{79}{section.7.33}%
+\contentsline {section}{\numberline {7.34}Testes/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net8.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Testes.Assembly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Info.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{79}{section.7.34}%
+\contentsline {section}{\numberline {7.35}Testes/obj/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Debug/net8.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Testes.Global\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usings.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}g.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cs File Reference}{79}{section.7.35}%
+\contentsline {section}{\numberline {7.36}Testes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Testes.cs File Reference}{79}{section.7.36}%
+\contentsline {section}{\numberline {7.37}Trabalho\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}POO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}26042/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program.cs File Reference}{79}{section.7.37}%
+\contentsline {section}{\numberline {7.38}Validacoes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Validacoes.cs File Reference}{80}{section.7.38}%
+\contentsline {chapter}{Index}{81}{section*.110}%

@@ -1,0 +1,17 @@
+digraph "Dados.EquipaBombeiros.Adiciona"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Dados.EquipaBombeiros.Adiciona",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Funcao que adiciona bombeiro no dicionario da equipa de bombeiros."];
+  Node1 -> Node2 [id="edge5_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Dados.Instituicao.CriaBombeiro\lInstCompleto",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#a9b1d3b744509ce85ddabc68ca0766786",tooltip="Funcao que adiciona um bombeiro na lista da equipa de bombeiros da instituicao."];
+  Node2 -> Node3 [id="edge6_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Regras.GereInstituicao.Cria\lBombeiroCompleto",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#ad08ef028e4d652fc95748d1599eef460",tooltip="Funcao que cria bombeiro completo."];
+  Node1 -> Node4 [id="edge7_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Dados.Instituicao.CriaBombeiro\lInstSimples",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#ab6550f84ba64cd447ce9d52f88188107",tooltip=" "];
+  Node4 -> Node5 [id="edge8_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Regras.GereInstituicao.Cria\lBombeiroSimples",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#ab4a44bd484ec4a77c502f594f4ceffa2",tooltip="Funcao que cria um bombeiro simples."];
+}

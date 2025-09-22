@@ -1,0 +1,11 @@
+digraph "Dados.Instituicao.ExisteOcorrenciaInst"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Dados.Instituicao.Existe\lOcorrenciaInst",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Funcao que verifica se existe uma determinada ocorrencia na lista de ocorrencias da instituicao."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Regras.GereInstituicao.Existe\lOcorrencia",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#a19297c9b9df6cb05e0abe37a8d0d8429",tooltip="Funcao que verifica se uma ocorrencia existe na instituicao."];
+}

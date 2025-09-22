@@ -1,0 +1,501 @@
+\doxysection{Regras.\+Gere\+Instituicao Class Reference}
+\hypertarget{class_regras_1_1_gere_instituicao}{}\label{class_regras_1_1_gere_instituicao}\index{Regras.GereInstituicao@{Regras.GereInstituicao}}
+
+
+Class que tem como objetivo gerir a instituicao.  
+
+
+
+
+Collaboration diagram for Regras.\+Gere\+Instituicao\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_regras_1_1_gere_instituicao_a3aacb17a39ff0b106f37e914746bc6f1}{Gere\+Instituicao}} ()
+\begin{DoxyCompactList}\small\item\em Construtor da class Gere\+Instituicao que inicializa a instituicao. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_regras_1_1_gere_instituicao_a5b5343fa879e2f1114f73a578cdae14c}{Gere\+Instituicao}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Construtor da class Gere\+Instituicao que inicializa a instituicao com os dados do ficheiro. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_a3f0b1de6cf91c6b3b82f51d8ce3e7f5d}{Cria\+Membro\+INEMCompleto}} (string nome\+Membro, string contacto, string email, \mbox{\hyperlink{namespace_enums_a872875c0170aff37135e8617ca222023}{Especialidade\+INEM}} especialidade)
+\begin{DoxyCompactList}\small\item\em Funcao que cria um membro do INEM completo. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_aea277450518124ec90b1aadf30ced42a}{Cria\+Membro\+INEMSimples}} (string nome\+Membro, \mbox{\hyperlink{namespace_enums_a872875c0170aff37135e8617ca222023}{Especialidade\+INEM}} especialidade)
+\begin{DoxyCompactList}\small\item\em Funcao que cria um membro do INEM simples. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_aebe6c9a1e7bc0247c167d6142c1be337}{Existe\+Membro\+INEM}} (int id\+Membro)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se um membro do INEM existe na instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_a4f061c31805956db15bf710cc9de74ca}{Remove\+Membro\+INEM}} (int id\+Membro)
+\begin{DoxyCompactList}\small\item\em Funcao que remove um membro do INEM da instituicao. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_business_objects_1_1_membro_i_n_e_m_b_o}{Membro\+INEMBO}} \mbox{\hyperlink{class_regras_1_1_gere_instituicao_a88760edaffe4b2fd196715871f125ab6}{Get\+Membro\+INEM}} (int id\+Membro)
+\begin{DoxyCompactList}\small\item\em Funcao que devolve as informacoes de um membro do INEM da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_ad08ef028e4d652fc95748d1599eef460}{Cria\+Bombeiro\+Completo}} (string nome\+Bombeiro, string contacto, string email, \mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}} patente)
+\begin{DoxyCompactList}\small\item\em Funcao que cria bombeiro completo. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_ab4a44bd484ec4a77c502f594f4ceffa2}{Cria\+Bombeiro\+Simples}} (string nome\+Bombeiro, \mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}} patente)
+\begin{DoxyCompactList}\small\item\em Funcao que cria um bombeiro simples. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_ac6a89847422876ec9997ce8d7294d0fb}{Existe\+Bombeiro}} (int id\+Bombeiro)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se um bombeiro existe na instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_aeeb676172558dcd56aee94ff447af934}{Remove\+Bombeiro}} (int id\+Bombeiro)
+\begin{DoxyCompactList}\small\item\em Funcao que remove um bombeiro da instituicao. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o}{Bombeiro\+BO}} \mbox{\hyperlink{class_regras_1_1_gere_instituicao_a690611bb104632162fde67a63bb62a32}{Get\+Bombeiro}} (int id\+Bombeiro)
+\begin{DoxyCompactList}\small\item\em Funcao que devolve as informacoes de um bombeiro da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_a552d9df397aaba64da73d32e5863dc93}{Cria\+Equipamento}} (string nome\+Equipamento, \mbox{\hyperlink{namespace_enums_ab8428e597e809f049d41102bc918503c}{Estado\+Equip}} estado, \mbox{\hyperlink{namespace_enums_a9e99ac339a87b8e34f417026af9c3b6f}{Entidade}} entidade)
+\begin{DoxyCompactList}\small\item\em Funcao que cria um equipamento completo. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_adb2c34df0d50ce87bb12a323b8e2c44e}{Existe\+Equipamento}} (int id\+Equipamento)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se um equipamento existe na instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_ae715f889696d60df3a07f2efae33cbb2}{Remove\+Equipamento}} (int id\+Equipamento)
+\begin{DoxyCompactList}\small\item\em Funcao que remove um equipamento da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_af9e41501ec536152d70be3e36c398f32}{Cria\+Ocorrencia\+Completa}} (Date\+Time data\+Ocorrencia, string localizacao, string descr\+Ocorr, \mbox{\hyperlink{namespace_enums_aa91f43a848f6f03f8e406c84f1740110}{Estado\+Ocorr}} estado, \mbox{\hyperlink{namespace_enums_a9e99ac339a87b8e34f417026af9c3b6f}{Entidade}} entidade)
+\begin{DoxyCompactList}\small\item\em Funcao que cria uma ocorrencia completa. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_aa379004ac9b3958288ecda70219ad702}{Cria\+Ocorrencia\+Simples}} (Date\+Time data\+Ocorrencia, string localizacao, string descr\+Ocorr)
+\begin{DoxyCompactList}\small\item\em Funcao que cria uma ocorrencia simples. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_a19297c9b9df6cb05e0abe37a8d0d8429}{Existe\+Ocorrencia}} (int id\+Ocorrencia)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se uma ocorrencia existe na instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_a8b7a5e8367a78ae3dcdaf3700c848dc1}{Remove\+Ocorrencia}} (int id\+Ocorrencia)
+\begin{DoxyCompactList}\small\item\em Funcao que remove uma ocorrencia da instituicao. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_1_1_gere_instituicao_ad932e8b260f8e17afd6d22b6925770fe}{Grava\+Instituicao}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Funcao que grava as informacoes da instituicao num ficheiro. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_instituicao}{Instituicao}} \mbox{\hyperlink{class_regras_1_1_gere_instituicao_af80cdba7615861ce71635d9b5d1c9064}{instituicao}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class que tem como objetivo gerir a instituicao. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_regras_1_1_gere_instituicao_a3aacb17a39ff0b106f37e914746bc6f1}\label{class_regras_1_1_gere_instituicao_a3aacb17a39ff0b106f37e914746bc6f1} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!GereInstituicao@{GereInstituicao}}
+\index{GereInstituicao@{GereInstituicao}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{GereInstituicao()}{GereInstituicao()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Regras.\+Gere\+Instituicao.\+Gere\+Instituicao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da class Gere\+Instituicao que inicializa a instituicao. 
+
+\Hypertarget{class_regras_1_1_gere_instituicao_a5b5343fa879e2f1114f73a578cdae14c}\label{class_regras_1_1_gere_instituicao_a5b5343fa879e2f1114f73a578cdae14c} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!GereInstituicao@{GereInstituicao}}
+\index{GereInstituicao@{GereInstituicao}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{GereInstituicao()}{GereInstituicao()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Regras.\+Gere\+Instituicao.\+Gere\+Instituicao (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da class Gere\+Instituicao que inicializa a instituicao com os dados do ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nome do ficheiro\\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 1
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_regras_1_1_gere_instituicao_ad08ef028e4d652fc95748d1599eef460}\label{class_regras_1_1_gere_instituicao_ad08ef028e4d652fc95748d1599eef460} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!CriaBombeiroCompleto@{CriaBombeiroCompleto}}
+\index{CriaBombeiroCompleto@{CriaBombeiroCompleto}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{CriaBombeiroCompleto()}{CriaBombeiroCompleto()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Cria\+Bombeiro\+Completo (\begin{DoxyParamCaption}\item[{string}]{nome\+Bombeiro,  }\item[{string}]{contacto,  }\item[{string}]{email,  }\item[{\mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}}}]{patente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que cria bombeiro completo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Bombeiro} & Nome do bombeiro\\
+\hline
+{\em contacto} & Contacto do bombeiro\\
+\hline
+{\em email} & Email do bombeiro\\
+\hline
+{\em patente} & Patente do bombeiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se criou com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 2
+\Hypertarget{class_regras_1_1_gere_instituicao_ab4a44bd484ec4a77c502f594f4ceffa2}\label{class_regras_1_1_gere_instituicao_ab4a44bd484ec4a77c502f594f4ceffa2} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!CriaBombeiroSimples@{CriaBombeiroSimples}}
+\index{CriaBombeiroSimples@{CriaBombeiroSimples}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{CriaBombeiroSimples()}{CriaBombeiroSimples()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Cria\+Bombeiro\+Simples (\begin{DoxyParamCaption}\item[{string}]{nome\+Bombeiro,  }\item[{\mbox{\hyperlink{namespace_enums_ae772d3c5b66f78275cd2a72e10b800b9}{Patente\+Bombeiro}}}]{patente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que cria um bombeiro simples. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Bombeiro} & Nome do bombeiro\\
+\hline
+{\em patente} & Patente do bombeiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se criou com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 3
+\Hypertarget{class_regras_1_1_gere_instituicao_a552d9df397aaba64da73d32e5863dc93}\label{class_regras_1_1_gere_instituicao_a552d9df397aaba64da73d32e5863dc93} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!CriaEquipamento@{CriaEquipamento}}
+\index{CriaEquipamento@{CriaEquipamento}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{CriaEquipamento()}{CriaEquipamento()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Cria\+Equipamento (\begin{DoxyParamCaption}\item[{string}]{nome\+Equipamento,  }\item[{\mbox{\hyperlink{namespace_enums_ab8428e597e809f049d41102bc918503c}{Estado\+Equip}}}]{estado,  }\item[{\mbox{\hyperlink{namespace_enums_a9e99ac339a87b8e34f417026af9c3b6f}{Entidade}}}]{entidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que cria um equipamento completo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Equipamento} & Nome do equipamento\\
+\hline
+{\em estado} & Estado do equipamento\\
+\hline
+{\em entidade} & Entidade do equipamento\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se criou o equipamento completo com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 4
+\Hypertarget{class_regras_1_1_gere_instituicao_a3f0b1de6cf91c6b3b82f51d8ce3e7f5d}\label{class_regras_1_1_gere_instituicao_a3f0b1de6cf91c6b3b82f51d8ce3e7f5d} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!CriaMembroINEMCompleto@{CriaMembroINEMCompleto}}
+\index{CriaMembroINEMCompleto@{CriaMembroINEMCompleto}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{CriaMembroINEMCompleto()}{CriaMembroINEMCompleto()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Cria\+Membro\+INEMCompleto (\begin{DoxyParamCaption}\item[{string}]{nome\+Membro,  }\item[{string}]{contacto,  }\item[{string}]{email,  }\item[{\mbox{\hyperlink{namespace_enums_a872875c0170aff37135e8617ca222023}{Especialidade\+INEM}}}]{especialidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que cria um membro do INEM completo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Membro} & Nome do membro\\
+\hline
+{\em contacto} & Contacto do membro\\
+\hline
+{\em email} & Email do membro\\
+\hline
+{\em especialidade} & Especialidade do membro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se criou o membro completo com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 5
+\Hypertarget{class_regras_1_1_gere_instituicao_aea277450518124ec90b1aadf30ced42a}\label{class_regras_1_1_gere_instituicao_aea277450518124ec90b1aadf30ced42a} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!CriaMembroINEMSimples@{CriaMembroINEMSimples}}
+\index{CriaMembroINEMSimples@{CriaMembroINEMSimples}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{CriaMembroINEMSimples()}{CriaMembroINEMSimples()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Cria\+Membro\+INEMSimples (\begin{DoxyParamCaption}\item[{string}]{nome\+Membro,  }\item[{\mbox{\hyperlink{namespace_enums_a872875c0170aff37135e8617ca222023}{Especialidade\+INEM}}}]{especialidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que cria um membro do INEM simples. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Membro} & Nome do membro\\
+\hline
+{\em especialidade} & Especialidade do membro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se criou um membro simples com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 6
+\Hypertarget{class_regras_1_1_gere_instituicao_af9e41501ec536152d70be3e36c398f32}\label{class_regras_1_1_gere_instituicao_af9e41501ec536152d70be3e36c398f32} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!CriaOcorrenciaCompleta@{CriaOcorrenciaCompleta}}
+\index{CriaOcorrenciaCompleta@{CriaOcorrenciaCompleta}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{CriaOcorrenciaCompleta()}{CriaOcorrenciaCompleta()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Cria\+Ocorrencia\+Completa (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Ocorrencia,  }\item[{string}]{localizacao,  }\item[{string}]{descr\+Ocorr,  }\item[{\mbox{\hyperlink{namespace_enums_aa91f43a848f6f03f8e406c84f1740110}{Estado\+Ocorr}}}]{estado,  }\item[{\mbox{\hyperlink{namespace_enums_a9e99ac339a87b8e34f417026af9c3b6f}{Entidade}}}]{entidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que cria uma ocorrencia completa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+Ocorrencia} & Data da ocorrencia\\
+\hline
+{\em localizacao} & Localizacao da ocorrencia\\
+\hline
+{\em descr\+Ocorr} & Descricao da ocorrencia\\
+\hline
+{\em estado} & Estado da ocorrencia\\
+\hline
+{\em entidade} & Entidade necessaria para a ocorrencia\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se criou a ocorrencia completa com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 7
+\Hypertarget{class_regras_1_1_gere_instituicao_aa379004ac9b3958288ecda70219ad702}\label{class_regras_1_1_gere_instituicao_aa379004ac9b3958288ecda70219ad702} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!CriaOcorrenciaSimples@{CriaOcorrenciaSimples}}
+\index{CriaOcorrenciaSimples@{CriaOcorrenciaSimples}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{CriaOcorrenciaSimples()}{CriaOcorrenciaSimples()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Cria\+Ocorrencia\+Simples (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Ocorrencia,  }\item[{string}]{localizacao,  }\item[{string}]{descr\+Ocorr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que cria uma ocorrencia simples. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+Ocorrencia} & Data da ocorrencia\\
+\hline
+{\em localizacao} & Localizacao da ocorrencia\\
+\hline
+{\em descr\+Ocorr} & Descricao da ocorrencia\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se criou a ocorrencia simples com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 8
+\Hypertarget{class_regras_1_1_gere_instituicao_ac6a89847422876ec9997ce8d7294d0fb}\label{class_regras_1_1_gere_instituicao_ac6a89847422876ec9997ce8d7294d0fb} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!ExisteBombeiro@{ExisteBombeiro}}
+\index{ExisteBombeiro@{ExisteBombeiro}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{ExisteBombeiro()}{ExisteBombeiro()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Existe\+Bombeiro (\begin{DoxyParamCaption}\item[{int}]{id\+Bombeiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que verifica se um bombeiro existe na instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Bombeiro} & Id do bombeiro que se pretende verificar se existe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se existe ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 9
+\Hypertarget{class_regras_1_1_gere_instituicao_adb2c34df0d50ce87bb12a323b8e2c44e}\label{class_regras_1_1_gere_instituicao_adb2c34df0d50ce87bb12a323b8e2c44e} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!ExisteEquipamento@{ExisteEquipamento}}
+\index{ExisteEquipamento@{ExisteEquipamento}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{ExisteEquipamento()}{ExisteEquipamento()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Existe\+Equipamento (\begin{DoxyParamCaption}\item[{int}]{id\+Equipamento }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que verifica se um equipamento existe na instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Equipamento} & Id do equipamento que se pretende verificar se existe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se existe ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 10
+\Hypertarget{class_regras_1_1_gere_instituicao_aebe6c9a1e7bc0247c167d6142c1be337}\label{class_regras_1_1_gere_instituicao_aebe6c9a1e7bc0247c167d6142c1be337} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!ExisteMembroINEM@{ExisteMembroINEM}}
+\index{ExisteMembroINEM@{ExisteMembroINEM}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{ExisteMembroINEM()}{ExisteMembroINEM()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Existe\+Membro\+INEM (\begin{DoxyParamCaption}\item[{int}]{id\+Membro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que verifica se um membro do INEM existe na instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Membro} & Id do membro que se pretende verificar se existe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se existe ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 11
+\Hypertarget{class_regras_1_1_gere_instituicao_a19297c9b9df6cb05e0abe37a8d0d8429}\label{class_regras_1_1_gere_instituicao_a19297c9b9df6cb05e0abe37a8d0d8429} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!ExisteOcorrencia@{ExisteOcorrencia}}
+\index{ExisteOcorrencia@{ExisteOcorrencia}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{ExisteOcorrencia()}{ExisteOcorrencia()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Existe\+Ocorrencia (\begin{DoxyParamCaption}\item[{int}]{id\+Ocorrencia }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que verifica se uma ocorrencia existe na instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Ocorrencia} & Id da ocorrencia que se pretende verificar se existe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se existe ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 12
+\Hypertarget{class_regras_1_1_gere_instituicao_a690611bb104632162fde67a63bb62a32}\label{class_regras_1_1_gere_instituicao_a690611bb104632162fde67a63bb62a32} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!GetBombeiro@{GetBombeiro}}
+\index{GetBombeiro@{GetBombeiro}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{GetBombeiro()}{GetBombeiro()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_business_objects_1_1_bombeiro_b_o}{Bombeiro\+BO}} Regras.\+Gere\+Instituicao.\+Get\+Bombeiro (\begin{DoxyParamCaption}\item[{int}]{id\+Bombeiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que devolve as informacoes de um bombeiro da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Bombeiro} & Id do bombeiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Informacoes do bombeiro
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 13
+\Hypertarget{class_regras_1_1_gere_instituicao_a88760edaffe4b2fd196715871f125ab6}\label{class_regras_1_1_gere_instituicao_a88760edaffe4b2fd196715871f125ab6} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!GetMembroINEM@{GetMembroINEM}}
+\index{GetMembroINEM@{GetMembroINEM}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{GetMembroINEM()}{GetMembroINEM()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_business_objects_1_1_membro_i_n_e_m_b_o}{Membro\+INEMBO}} Regras.\+Gere\+Instituicao.\+Get\+Membro\+INEM (\begin{DoxyParamCaption}\item[{int}]{id\+Membro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que devolve as informacoes de um membro do INEM da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Membro} & Id do membro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Informacoes do Membro\+INEM
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 14
+\Hypertarget{class_regras_1_1_gere_instituicao_ad932e8b260f8e17afd6d22b6925770fe}\label{class_regras_1_1_gere_instituicao_ad932e8b260f8e17afd6d22b6925770fe} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!GravaInstituicao@{GravaInstituicao}}
+\index{GravaInstituicao@{GravaInstituicao}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{GravaInstituicao()}{GravaInstituicao()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Grava\+Instituicao (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que grava as informacoes da instituicao num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nome do ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se gravou com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 15
+\Hypertarget{class_regras_1_1_gere_instituicao_aeeb676172558dcd56aee94ff447af934}\label{class_regras_1_1_gere_instituicao_aeeb676172558dcd56aee94ff447af934} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!RemoveBombeiro@{RemoveBombeiro}}
+\index{RemoveBombeiro@{RemoveBombeiro}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{RemoveBombeiro()}{RemoveBombeiro()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Remove\+Bombeiro (\begin{DoxyParamCaption}\item[{int}]{id\+Bombeiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que remove um bombeiro da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Bombeiro} & Id do bombeiro que se pretende remover\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se removeu com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 16
+\Hypertarget{class_regras_1_1_gere_instituicao_ae715f889696d60df3a07f2efae33cbb2}\label{class_regras_1_1_gere_instituicao_ae715f889696d60df3a07f2efae33cbb2} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!RemoveEquipamento@{RemoveEquipamento}}
+\index{RemoveEquipamento@{RemoveEquipamento}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{RemoveEquipamento()}{RemoveEquipamento()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Remove\+Equipamento (\begin{DoxyParamCaption}\item[{int}]{id\+Equipamento }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que remove um equipamento da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Equipamento} & Id do equipamento que se pretende remover\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se removeu com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 17
+\Hypertarget{class_regras_1_1_gere_instituicao_a4f061c31805956db15bf710cc9de74ca}\label{class_regras_1_1_gere_instituicao_a4f061c31805956db15bf710cc9de74ca} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!RemoveMembroINEM@{RemoveMembroINEM}}
+\index{RemoveMembroINEM@{RemoveMembroINEM}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{RemoveMembroINEM()}{RemoveMembroINEM()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Remove\+Membro\+INEM (\begin{DoxyParamCaption}\item[{int}]{id\+Membro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que remove um membro do INEM da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Membro} & Id do membro que se pretende remover\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se removeu com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 18
+\Hypertarget{class_regras_1_1_gere_instituicao_a8b7a5e8367a78ae3dcdaf3700c848dc1}\label{class_regras_1_1_gere_instituicao_a8b7a5e8367a78ae3dcdaf3700c848dc1} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!RemoveOcorrencia@{RemoveOcorrencia}}
+\index{RemoveOcorrencia@{RemoveOcorrencia}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{RemoveOcorrencia()}{RemoveOcorrencia()}}
+{\footnotesize\ttfamily bool Regras.\+Gere\+Instituicao.\+Remove\+Ocorrencia (\begin{DoxyParamCaption}\item[{int}]{id\+Ocorrencia }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funcao que remove uma ocorrencia da instituicao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Ocorrencia} & Id da ocorrencia que se pretende remover\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Se removeu com sucesso ou nao
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 19
+
+
+\doxysubsection{Field Documentation}
+\Hypertarget{class_regras_1_1_gere_instituicao_af80cdba7615861ce71635d9b5d1c9064}\label{class_regras_1_1_gere_instituicao_af80cdba7615861ce71635d9b5d1c9064} 
+\index{Regras.GereInstituicao@{Regras.GereInstituicao}!instituicao@{instituicao}}
+\index{instituicao@{instituicao}!Regras.GereInstituicao@{Regras.GereInstituicao}}
+\doxysubsubsection{\texorpdfstring{instituicao}{instituicao}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_dados_1_1_instituicao}{Instituicao}} Regras.\+Gere\+Instituicao.\+instituicao\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Regras/\mbox{\hyperlink{_gere_instituicao_8cs}{Gere\+Instituicao.\+cs}}\end{DoxyCompactItemize}

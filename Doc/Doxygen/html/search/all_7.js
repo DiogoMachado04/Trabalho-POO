@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['id_0',['id',['../class_business_objects_1_1_pessoa_b_o.html#af188013f87619acc80cc78e39cd1e5d4',1,'BusinessObjects.PessoaBO.id'],['../class_dados_1_1_equipamento.html#a963bb932b35d66875bfec9055288a7bd',1,'Dados.Equipamento.id'],['../class_dados_1_1_ocorrencia.html#ab88d352c0d8a18e28f3928147968dfb5',1,'Dados.Ocorrencia.id'],['../class_dados_1_1_pessoa.html#a89174b634b495b33717d617834af01ac',1,'Dados.Pessoa.id'],['../class_business_objects_1_1_pessoa_b_o.html#a6e03b4a7e8352fdc75de51bbbd9a5871',1,'BusinessObjects.PessoaBO.Id'],['../class_dados_1_1_equipamento.html#a3580a7e947420c8954b0d944094a93d3',1,'Dados.Equipamento.Id'],['../class_dados_1_1_ocorrencia.html#af02f07003e0a4b0282cf15a8875912bc',1,'Dados.Ocorrencia.Id'],['../class_dados_1_1_pessoa.html#a43e5b9f3947ef22313db9a09405acc3b',1,'Dados.Pessoa.Id']]],
+  ['idcounter_1',['idcounter',['../class_dados_1_1_equipamento.html#a78798d5ce758d0158dd3e88a876bcae9',1,'Dados.Equipamento.idCounter'],['../class_dados_1_1_ocorrencia.html#a9e8f6181fa87219a0b2c913c69688d09',1,'Dados.Ocorrencia.idCounter'],['../class_dados_1_1_pessoa.html#aedd95398e55605741f791d1546e06eb6',1,'Dados.Pessoa.idCounter']]],
+  ['imetodos_2ecs_2',['IMetodos.cs',['../_i_metodos_8cs.html',1,'']]],
+  ['indisponivel_3',['INDISPONIVEL',['../namespace_enums.html#ab8428e597e809f049d41102bc918503cac58717913838a8744539dd92d132228a',1,'Enums']]],
+  ['inem_4',['INEM',['../namespace_enums.html#a9e99ac339a87b8e34f417026af9c3b6fa04c42ca0fe71a1daf21fb645335599cb',1,'Enums']]],
+  ['instituicao_5',['instituicao',['../class_dados_1_1_instituicao.html',1,'Dados.Instituicao'],['../class_dados_1_1_instituicao.html#a59d9c01f196688d268f7bd63a5c73f77',1,'Dados.Instituicao.Instituicao()'],['../class_dados_1_1_instituicao.html#a9836e5bec0a2e55fa7c09d8c23fc9ac5',1,'Dados.Instituicao.Instituicao(EquipaBombeiros equipaBombeiros, EquipaINEM equipaINEM, Equipamentos equipamentos, Ocorrencias ocorrencias, string nome)'],['../class_regras_1_1_gere_instituicao.html#af80cdba7615861ce71635d9b5d1c9064',1,'Regras.GereInstituicao.instituicao']]],
+  ['instituicao_2ecs_6',['Instituicao.cs',['../_instituicao_8cs.html',1,'']]]
+];

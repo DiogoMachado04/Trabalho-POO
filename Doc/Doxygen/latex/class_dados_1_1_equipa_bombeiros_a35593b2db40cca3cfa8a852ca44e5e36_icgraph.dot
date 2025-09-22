@@ -1,0 +1,13 @@
+digraph "Dados.EquipaBombeiros.GetBombeiro"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Dados.EquipaBombeiros.Get\lBombeiro",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Funcao que devolve as informações de um bombeiro da equipa de bombeiros."];
+  Node1 -> Node2 [id="edge3_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Dados.Instituicao.GetBombeiroInst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#aeccde949f153f099c1bdf4073bda7850",tooltip="Funcao que devolve as informacoes de um bombeiro da equipa de bombeiros da instituicao."];
+  Node2 -> Node3 [id="edge4_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Regras.GereInstituicao.Get\lBombeiro",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#a690611bb104632162fde67a63bb62a32",tooltip="Funcao que devolve as informacoes de um bombeiro da instituicao."];
+}

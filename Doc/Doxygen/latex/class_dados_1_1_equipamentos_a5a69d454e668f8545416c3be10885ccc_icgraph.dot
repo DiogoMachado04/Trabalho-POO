@@ -1,0 +1,25 @@
+digraph "Dados.Equipamentos.Existe"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Dados.Equipamentos.Existe",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Funcao que verifica se existe um determinado equipamento num dicionario de equipamentos."];
+  Node1 -> Node2 [id="edge9_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Dados.Equipamentos.Adiciona",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_equipamentos.html#ab7e392947487042b114e9b77eb96cddb",tooltip="Funcao que adiciona um equipamento num dicionario de equipamentos."];
+  Node2 -> Node3 [id="edge10_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Dados.Instituicao.CriaEquipamentoInst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#acabfa78ad26a889c00ed68bae8cec1fe",tooltip="Funcao que adiciona um equipamento na lista de equipamentos da instituicao."];
+  Node3 -> Node4 [id="edge11_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Regras.GereInstituicao.Cria\lEquipamento",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#a552d9df397aaba64da73d32e5863dc93",tooltip="Funcao que cria um equipamento completo."];
+  Node1 -> Node5 [id="edge12_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Dados.Instituicao.Existe\lEquipamentoInst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#a9cec9169a02a9a3c12cda778fc2e5797",tooltip="Funcao que verifica se existe um determinado equipamento na lista de equipamentos da instituicao."];
+  Node5 -> Node6 [id="edge13_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Regras.GereInstituicao.Existe\lEquipamento",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#adb2c34df0d50ce87bb12a323b8e2c44e",tooltip="Funcao que verifica se um equipamento existe na instituicao."];
+  Node1 -> Node7 [id="edge14_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Dados.Equipamentos.Remove",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_equipamentos.html#af0f354365f76d82df682b86ac4d2e020",tooltip="Funcao que remove um determinado equipamento do dicionario de equipamentos."];
+  Node7 -> Node8 [id="edge15_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="Dados.Instituicao.Remove\lEquipamentoInst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_dados_1_1_instituicao.html#ab3552544b70c74bf2920f3e2c074f7ee",tooltip="Funcao que remove um determinado equipamento na lista de equipamentos da instituicao."];
+  Node8 -> Node9 [id="edge16_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="Regras.GereInstituicao.Remove\lEquipamento",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_regras_1_1_gere_instituicao.html#ae715f889696d60df3a07f2efae33cbb2",tooltip="Funcao que remove um equipamento da instituicao."];
+}
